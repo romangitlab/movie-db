@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Desktop UI Suite" parallel="tests" thread-count="1">
+
+    <test name="MoviesTests">
+        <classes>
+            <class name="desktop.rest.tests.MoviesTests"/>
+        </classes>
+    </test>
+    <test name="TvShowsTests">
+        <classes>
+            <class name="desktop.rest.tests.TvShowsTests"/>
+        </classes>
+    </test>
+    <test name="SearchTests">
+        <classes>
+            <class name="desktop.rest.tests.SearchTests"/>
+        </classes>
+    </test>
+</suite>
