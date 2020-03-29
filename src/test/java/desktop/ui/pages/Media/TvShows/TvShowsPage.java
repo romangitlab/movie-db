@@ -17,7 +17,7 @@ public class TvShowsPage extends CommonPage {
     private ArrayList<WebElement> geTvShowList(){
         ArrayList<WebElement> tvShows = new ArrayList<WebElement>();
 
-        List<WebElement> tvShowElements = webDriver.findElements(By.cssSelector("div.media .results .item"));
+        List<WebElement> tvShowElements = webDriver.findElements(By.cssSelector("div.media_items.results>div>div"));
 
         for (WebElement tvShow : tvShowElements) {
             tvShows.add(tvShow);
@@ -32,10 +32,10 @@ public class TvShowsPage extends CommonPage {
 
         int tvShowCount = tvShows.size();
 
-        int randomTvShow = new Random().nextInt(tvShowCount);
+        int randomTvShow = new Random().nextInt(tvShowCount-1);
 
         WebElement movie = tvShows.get(randomTvShow);
-        movie.findElement(By.cssSelector("div.image_content>a")).click();
+        movie.findElement(By.cssSelector("div.image>div>a")).click();
 
         return new TvShowPage();
     }

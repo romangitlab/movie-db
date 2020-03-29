@@ -19,7 +19,7 @@ public class TvShowsTests {
     }
 
     @Test
-    public void checkAddingTvShowToFavoriteTest(){
+    public void checkRestAddingTvShowToFavoriteTest(){
         TvShow beforeTvShows = TvShowsApi.getTvShowsFromFavorites();
         TvShowData tvShowData = TvShowsApi.addRandomTvShowToFavorite();
         TvShow afterTvShows = TvShowsApi.getTvShowsFromFavorites();

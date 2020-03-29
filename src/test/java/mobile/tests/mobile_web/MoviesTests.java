@@ -22,7 +22,7 @@ public class MoviesTests extends CoreTest {
     }
 
     @Test
-    public void testMovies() {
+    public void checkMobileAddingMovieToFavoriteTest() {
         Movies beforeMovies = MoviesApi.getMoviesFromFavorites();
         int beforeMoviesCount = MoviesApi.getMoviesFromFavorites().size();
 

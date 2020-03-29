@@ -24,7 +24,7 @@ public class MoviesPage extends HelperBase {
     private ArrayList<WebElement> geMoviesList(){
         ArrayList<WebElement> movies = new ArrayList<WebElement>();
 
-        List<WebElement> movieElements = webDriver.findElements(By.cssSelector("div.media .results .item"));
+        List<WebElement> movieElements = webDriver.findElements(By.cssSelector("div.media_items.results>div>div"));
 
         for (WebElement movie : movieElements) {
             movies.add(movie);
@@ -40,8 +40,8 @@ public class MoviesPage extends HelperBase {
         int moviesCount = movies.size();
         int randomMovie = new Random().nextInt(moviesCount);
 
-        WebElement movie = movies.get(randomMovie);
-        movie.findElement(By.cssSelector("div.image_content>a")).click();
+        WebElement movie = movies.get(randomMovie-1);
+        movie.findElement(By.cssSelector("div.image>div>a")).click();
 
         return new MoviePage();
     }

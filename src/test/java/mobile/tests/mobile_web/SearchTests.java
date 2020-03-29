@@ -7,14 +7,14 @@ import org.junit.Test;
 public class SearchTests extends CoreTest {
 
     @Test
-    public void testSearch() {
+    public void checkMobileSearchMovieTest() {
         SearchPage searchPage = new SearchPage(driver);
         searchPage.typeSeachText("Joker");
         searchPage.waitForSearchResult("Joker");
     }
 
     @Test
-    public void testAmountOfNotEmptySearch() {
+    public void checkMobileAmountOfNotEmptySearchTest() {
         SearchPage searchPage = new SearchPage(driver);
         searchPage.typeSeachText("Joker");
 
@@ -25,7 +25,7 @@ public class SearchTests extends CoreTest {
     }
 
     @Test
-    public void testAmountOfEmptySearch() {
+    public void checkMobileAmountOfEmptySearchTest() {
         SearchPage searchPage = new SearchPage(driver);
         searchPage.typeSeachText("@!@!@!@!");
 

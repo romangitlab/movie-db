@@ -33,7 +33,7 @@ public class TvShowsTests extends TestBase {
     }
 
     @Test
-    public void checkAddingTvShowToFavoriteTest(){
+    public void checkDesktopAddingTvShowToFavoriteTest(){
         profileFavoritesPage = new ProfileFavoritesPage("tv");
         TvShow tvShowDataBefore = profileFavoritesPage.getTvShowFavoriteList();
         int moviesCountBefore = profileFavoritesPage.getFavoritesCount();

@@ -7,8 +7,8 @@ public class SearchPage extends MainPage {
 
     protected static String
             SEARCH_INPUT = "css:input#search_v4",
-            SEARCH_RESULT = "xpath://a[contains(@data-media-type,'movie')][contains(text(),'{SUBSTRING}')]",
-            SEARCH_RESULT_ELEMENT = "css:h2#movie_results+div.results.flex>div";
+            SEARCH_RESULT = "xpath://h2[contains(text(),'{SUBSTRING}')]",
+            SEARCH_RESULT_ELEMENT = "css:div.results.flex>div";
 
 
     public SearchPage(RemoteWebDriver driver) {

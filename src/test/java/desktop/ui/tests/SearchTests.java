@@ -23,7 +23,7 @@ public class SearchTests extends TestBase {
     }
 
     @Test
-    public void searchMovieTest() {
+    public void checkDesktopSearchMovieTest() {
         moviesPage = new MoviesPage();
         searchPage = moviesPage.search("Joker", "movie");
 
@@ -32,7 +32,7 @@ public class SearchTests extends TestBase {
     }
 
     @Test
-    public void searchTvShowTest() {
+    public void checkDesktopSearchTvShowTest() {
         moviesPage = new MoviesPage();
         searchPage = moviesPage.search("Arrow", "tv");
 
@@ -41,7 +41,7 @@ public class SearchTests extends TestBase {
     }
 
     @Test
-    public void emptySearchTest() {
+    public void checkDesktopEmptySearchTest() {
         moviesPage = new MoviesPage();
         searchPage = moviesPage.search("@!@!@!");
 

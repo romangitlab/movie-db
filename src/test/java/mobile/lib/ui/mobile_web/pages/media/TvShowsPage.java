@@ -11,7 +11,8 @@ import java.util.Random;
 public class TvShowsPage extends MainPage {
 
     protected static String
-            TV_LIST = "css:div.media .results .item";
+            TV_LIST = "css:div.media_items.results>div>div",
+            TV_TITLE = "css:div.wrapper div.title";
 
     public TvShowsPage(RemoteWebDriver driver) {
         super(driver);
@@ -35,11 +36,11 @@ public class TvShowsPage extends MainPage {
         List<WebElement> movies = geTvList();
 
         int moviesCount = movies.size();
-        int randomTv = new Random().nextInt(moviesCount);
+        int randomTv = new Random().nextInt(moviesCount-1);
         WebElement movie = movies.get(randomTv);
 
         scrollWebPageTo(movie);
-        movie.click();
+        movie.findElement(getLocatorByString(TV_TITLE)).click();
 
         return new TvShowPage(driver);
     }
