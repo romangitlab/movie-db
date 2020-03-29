@@ -19,7 +19,7 @@ public class MoviesTests {
     }
 
     @Test
-    public void checkAddingMovieToFavoriteTest(){
+    public void checkRestAddingMovieToFavoriteTest(){
         Movies beforeMovies = MoviesApi.getMoviesFromFavorites();
         MovieData movieData = MoviesApi.addRandomMovieToFavorite();
         Movies afterMovies = MoviesApi.getMoviesFromFavorites();

@@ -6,7 +6,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class TvShowPage extends CommonMediaPage {
 
     static {
-        TITLE = "css:div.title>div>div>a>h2";
+        TITLE = "css:div.content>a>h2";
         FAVORITE = "id:favourite";
     }
 

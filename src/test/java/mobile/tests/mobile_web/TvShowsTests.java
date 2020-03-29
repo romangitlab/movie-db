@@ -22,7 +22,7 @@ public class TvShowsTests extends CoreTest {
     }
 
     @Test
-    public void testMovies() {
+    public void checkMobileAddingTvShowToFavoriteTest() {
         TvShow beforeTvShows = TvShowsApi.getTvShowsFromFavorites();
         int beforeTvShowsCount = TvShowsApi.getTvShowsFromFavorites().size();
 

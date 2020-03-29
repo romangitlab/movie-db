@@ -17,7 +17,7 @@ import static org.testng.Assert.assertTrue;
 public class SearchTests {
 
     @Test
-    public void restSearchMovieTest() {
+    public void checkRestSearchMovieTest() {
         Set<MovieData> searchResult = (Set) SearchApi.search("Joker", "movie");
         MovieData movie = searchResult.iterator().next();
 
@@ -26,7 +26,7 @@ public class SearchTests {
     }
 
     @Test
-    public void restSearchTvShowTest() {
+    public void checkRestSearchTvShowTest() {
         List<TvShowData> searchResult = (List) SearchApi.search("Arrow", "tv");
         TvShowData tv = searchResult.iterator().next();
 
@@ -35,7 +35,7 @@ public class SearchTests {
     }
 
     @Test
-    public void restNegativeSearchTest() {
+    public void checkRestNegativeSearchTest() {
         List<MediaData> searchResult = (List) SearchApi.search("@!@!@!@!", "multi");
 
         assertThat("", searchResult.size(), is(0));

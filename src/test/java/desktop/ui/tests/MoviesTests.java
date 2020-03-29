@@ -33,7 +33,7 @@ public class MoviesTests extends TestBase {
     }
 
     @Test
-    public void checkAddingMovieToFavoriteTest(){
+    public void checkDesktopAddingMovieToFavoriteTest(){
         profileFavoritesPage = new ProfileFavoritesPage("movies");
         Movies movieDataBefore = profileFavoritesPage.getMoviesFavoriteList();
         int moviesCountBefore = profileFavoritesPage.getFavoritesCount();

@@ -23,7 +23,7 @@ public class TvShowPage extends CommonPage {
     }
 
     public String getTvShowTitle(){
-        return webDriver.findElement(By.cssSelector("div.title>span>a")).getText();
+        return webDriver.findElement(By.cssSelector("div.title>h2>a")).getText();
     }
 
 }

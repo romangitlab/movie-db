@@ -23,7 +23,7 @@ public class MoviePage extends CommonPage {
     }
 
     public String getMovieTitle(){
-        return webDriver.findElement(By.cssSelector("div.title>span>a")).getText();
+        return webDriver.findElement(By.cssSelector("div.title>h2>a")).getText();
     }
 
 }

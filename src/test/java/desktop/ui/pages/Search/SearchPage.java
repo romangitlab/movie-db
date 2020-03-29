@@ -56,7 +56,7 @@ public class SearchPage extends HelperBase {
     private ArrayList<WebElement> getSearchResults() {
         ArrayList<WebElement> searchResult = new ArrayList<WebElement>();
 
-        List<WebElement> searchElements = webDriver.findElements(By.cssSelector("div.search_results div.item.poster"));
+        List<WebElement> searchElements = webDriver.findElements(By.cssSelector("div.results.flex>div"));
 
         for (WebElement result : searchElements) {
             searchResult.add(result);
