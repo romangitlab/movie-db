@@ -1,5 +1,6 @@
 package api;
 
+import core.Logging;
 import model.Media;
 import model.MediaData;
 import org.testng.annotations.AfterTest;
@@ -8,7 +9,7 @@ import org.testng.annotations.Test;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class MoviesTests {
+public class MoviesTests extends Logging {
 
     @AfterTest()
     public void afterTest() {
