@@ -3,6 +3,8 @@ package pages.web.Media;
 import helpers.WebHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import pages.web.Search.SearchPage;
 
 import java.util.ArrayList;
@@ -12,11 +14,14 @@ import java.util.stream.Collectors;
 
 public class MediaPage extends WebHelper {
 
+    Logger logger = LoggerFactory.getLogger(MediaPage.class);
+
     public MediaPage(String mediaType) {
         openMediaPage(mediaType);
     }
 
     public void openMediaPage(String mediaType) {
+        logger.info("Run: openMediaPage()");
 
         switch (mediaType) {
             case "movie":
@@ -33,6 +38,7 @@ public class MediaPage extends WebHelper {
     }
 
     private ArrayList<WebElement> geMediaList(){
+        logger.info("Run: geMediaList()");
 
         ArrayList<WebElement> media = new ArrayList<>();
         List<WebElement> elements = webDriver.findElements(By.cssSelector("div.media_items.results>div>div"));
@@ -43,6 +49,7 @@ public class MediaPage extends WebHelper {
     }
 
     public MediaItemPage openRandomMedia() {
+        logger.info("Run: openRandomMedia()");
 
         List<WebElement> medias = geMediaList();
         int mediaCount = medias.size();
@@ -55,10 +62,14 @@ public class MediaPage extends WebHelper {
     }
 
     public SearchPage search(String searchText){
+        logger.info("Run: search()");
+
         return new SearchPage(searchText);
     }
 
     public SearchPage search(String searchText, String mediaType){
+        logger.info("Run: search()");
+
         return new SearchPage(searchText, mediaType);
     }
 }

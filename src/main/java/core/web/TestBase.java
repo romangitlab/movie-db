@@ -1,10 +1,11 @@
 package core.web;
 
+import core.Logging;
 import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-public class TestBase {
+public class TestBase extends Logging {
 
     WebManager manager = new WebManager(System.getProperty("browser", BrowserType.CHROME));
 

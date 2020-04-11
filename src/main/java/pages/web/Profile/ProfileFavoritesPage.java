@@ -5,16 +5,21 @@ import model.Media;
 import model.MediaData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
 public class ProfileFavoritesPage extends WebHelper {
+
+    Logger logger = LoggerFactory.getLogger(ProfileFavoritesPage.class);
 
     public ProfileFavoritesPage(String type){
         openFavoritesPage(type);
     }
 
     public void openFavoritesPage(String type) {
+        logger.info("Run: openFavoritesPage()");
 
         switch (type) {
             case "movie":
@@ -33,6 +38,7 @@ public class ProfileFavoritesPage extends WebHelper {
     }
 
     public Media getFavoriteList() {
+        logger.info("Run: getFavoriteList()");
 
         Media media = new Media();
         List<WebElement> elements = webDriver.findElements(By.cssSelector(".results_page>.card"));
@@ -48,6 +54,8 @@ public class ProfileFavoritesPage extends WebHelper {
     }
 
     public int getFavoritesCount() {
+        logger.info("Run: getFavoritesCount()");
+
         return webDriver.findElements(By.cssSelector(".results_page>.card")).size();
     }
 }

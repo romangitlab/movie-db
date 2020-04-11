@@ -5,6 +5,8 @@ import com.google.gson.Gson;
 import helpers.WebHelper;
 import model.Media;
 import model.MediaData;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.Assert;
 
 import java.util.List;
@@ -12,8 +14,10 @@ import java.util.Random;
 import java.util.Set;
 
 public class MediaApi extends CommonApi {
+    static Logger logger = LoggerFactory.getLogger(MediaApi.class);
 
     public static Media getMediaFromFavorites(String mediaType) {
+        logger.info("Run: getMediaFromFavorites()");
 
         if(mediaType.equals("movie")) mediaType = "movies";
 
@@ -26,6 +30,7 @@ public class MediaApi extends CommonApi {
     }
 
     public static MediaData addRandomMediaToFavorite(String mediaType) {
+        logger.info("Run: addRandomMediaToFavorite()");
 
         MediaData mediaData = getRandomMedia(mediaType);
 
@@ -38,6 +43,7 @@ public class MediaApi extends CommonApi {
     }
 
     public static MediaData getRandomMedia(String mediaType) {
+        logger.info("Run: getRandomMedia()");
 
         int mediaCount = getPopularMedia(mediaType).size();
         int randomMedia = new Random().nextInt(mediaCount);
@@ -46,6 +52,7 @@ public class MediaApi extends CommonApi {
     }
 
     public static List<MediaData> getPopularMedia(String mediaType) {
+        logger.info("Run: getPopularMedia()");
 
         String json = CommonApi.requestSpecification()
                 .get(CommonApi.baseApiUrl + mediaType + "/popular").asString();
@@ -54,6 +61,7 @@ public class MediaApi extends CommonApi {
     }
 
     public static void removeAllMediaFromFavorites(String mediaType) {
+        logger.info("Run: removeAllMediaFromFavorites()");
 
         Set<MediaData> medias = getMediaFromFavorites(mediaType);
 
@@ -64,6 +72,7 @@ public class MediaApi extends CommonApi {
     }
 
     public static List<MediaData> searchMedia(String searchText, String mediaType) {
+        logger.info("Run: searchMedia()");
 
         Gson gson = new Gson();
         List<MediaData> media;

@@ -25,7 +25,7 @@ public class SearchTests extends TestBase {
         assertThat("",
                 searchPage.getSearchResultCount(), is(not(0)));
         assertThat("",
-                searchPage.SearchResult(), containsString("Joker"));
+                searchPage.searchResult(), containsString("Joker"));
     }
 
     @Test
@@ -36,7 +36,7 @@ public class SearchTests extends TestBase {
         assertThat("",
                 searchPage.getSearchResultCount(), is(not(0)));
         assertThat("",
-                searchPage.SearchResult(), containsString("Arrow"));
+                searchPage.searchResult(), containsString("Arrow"));
     }
 
     @Test

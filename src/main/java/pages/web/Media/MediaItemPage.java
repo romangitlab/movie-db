@@ -4,9 +4,12 @@ import core.web.WebManager;
 import helpers.WebHelper;
 import model.MediaData;
 import org.openqa.selenium.By;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class MediaItemPage extends WebHelper {
 
+    Logger logger = LoggerFactory.getLogger(MediaItemPage.class);
     private MediaData mediaData;
 
     public MediaItemPage() {
@@ -24,6 +27,7 @@ public class MediaItemPage extends WebHelper {
     }
 
     public String getTitle(){
+        logger.info("Run: getTitle()");
         String title;
 
         if (WebManager.isMW()) {
@@ -39,15 +43,15 @@ public class MediaItemPage extends WebHelper {
     }
 
     public MediaItemPage addToFavorites() {
+        logger.info("Run: addToFavorites()");
 
-        //acceptCookiePolicy();
+        acceptCookiePolicy();
         scrollWebPageTo(webDriver.findElement(By.id("favourite")));
         clickAtElement(By.id("favourite"));
 
         return this;
     }
 
-    /*
     public MediaItemPage acceptCookiePolicy(){
         if (WebManager.isMW()) {
             clickAtElement(By.cssSelector("p>a.accept"));
@@ -55,6 +59,5 @@ public class MediaItemPage extends WebHelper {
 
         return this;
     }
-     */
 
 }
