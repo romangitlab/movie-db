@@ -59,6 +59,13 @@ public class CommonApi {
                 "}";
     }
 
+    public static String rateBody(String rate) {
+        return
+                "{" +
+                    "\"value\":\"" + rate + "\"" +
+                "}";
+    }
+
     protected static JsonElement getJsonElement(String json, String jsonElement) {
         JsonElement parsed = new JsonParser().parse(json);
 

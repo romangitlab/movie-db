@@ -1,0 +1,138 @@
+
+_
+java:S1106‡"AMove this left curly brace to the beginning of next line of code.(£Ë‰8ÀıÓê™.
+W
+java:S1106&"AMove this left curly brace to the beginning of next line of code.(«ìÅş
+_
+java:S1120>"DMake this line start after 4 spaces to indent the code consistently.(Ì–øûÿÿÿÿ
+i	java:S122"TAt most one statement is allowed per line, but 2 statements were found on this line.(®ëù©
+5	java:S121|"Missing curly brace.(»ì›Ğÿÿÿÿÿ8½ç¾æ™.
+4
+java:S1451"&Add or update the header of this file.
+\
+java:S1106["AMove this left curly brace to the beginning of next line of code.(¨§Âøÿÿÿÿ
+A
+java:S1602K",Remove useless curly braces around statement(ùÖ˜Q
+[
+java:S1120L"EMake this line start after 10 spaces to indent the code consistently.(ÈÑšÎ
+`	java:S103`"KSplit this 123 characters long line (which is greater than 120 authorized).(â‡êç
+f
+java:S1132_"KMove the "multi" string literal on the left side of this string comparison.(üç¤Àùÿÿÿÿ
+Z
+java:S1120\"DMake this line start after 6 spaces to indent the code consistently.(â‡êç
+c
+java:S1192"FDefine a constant instead of duplicating this literal "movie" 4 times.(®ëù©8½ç¾æ™.
+W
+java:S1106\"AMove this left curly brace to the beginning of next line of code.(â‡êç
+Z
+java:S1120'"DMake this line start after 4 spaces to indent the code consistently.(ıæ‰
+Z
+java:S1120`"DMake this line start after 6 spaces to indent the code consistently.(â‡êç
+T
+java:S2629o"7Use the built-in formatting to construct this argument.(÷µˆ¬8ˆ§÷ñ™.
+_
+java:S1120b"DMake this line start after 6 spaces to indent the code consistently.(Óœã¿ûÿÿÿÿ
+Z
+java:S1120i"DMake this line start after 4 spaces to indent the code consistently.(¢”ö˜
+V
+java:S1106]"AMove this left curly brace to the beginning of next line of code.(Ù±«
+W
+java:S1106`"AMove this left curly brace to the beginning of next line of code.(â‡êç
+c
+java:S1132["HMove the "tv" string literal on the left side of this string comparison.(¨§Âøÿÿÿÿ
+U
+java:S2629“"7Use the built-in formatting to construct this argument.(¤›Ö§8ÎÊìğ™.
+W
+java:S1106h"AMove this left curly brace to the beginning of next line of code.(§¾©©
+`	java:S103C"KSplit this 124 characters long line (which is greater than 120 authorized).(‰›¹
+G
+java:S1108a"1Move this "else" keyword to a new dedicated line.(å¥‡
+S
+java:S1449n"6Define the locale to be used in this String operation.(Ü„àÉ8»Ú™è™.
+W
+java:S1106a"AMove this left curly brace to the beginning of next line of code.(å¥‡
+0
+java:S2211K"Specify a type for: 'media'(ùÖ˜Q
+W
+java:S1106Q"AMove this left curly brace to the beginning of next line of code.(¼Ë ½
+u	java:S122|"TAt most one statement is allowed per line, but 2 statements were found on this line.(»ì›Ğÿÿÿÿÿ8½ç¾æ™.
+V
+java:S1106="AMove this left curly brace to the beginning of next line of code.(…á
+g
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(û½”›ûÿÿÿÿ8ãŸˆî™.
+L
+java:S1108_"1Move this "else" keyword to a new dedicated line.(üç¤Àùÿÿÿÿ
+o	java:S109"UAssign this magic number 2000 to a well-named constant, and use the constant instead.(ÙÓç×øÿÿÿÿ
+`	java:S103\"KSplit this 124 characters long line (which is greater than 120 authorized).(â‡êç
+\
+java:S3457>"AFormat specifiers should be used instead of string concatenation.(Ì–øûÿÿÿÿ
+_
+java:S1120G"DMake this line start after 4 spaces to indent the code consistently.(¬ûª•øÿÿÿÿ
+^
+java:S1192#"HDefine a constant instead of duplicating this literal "results" 6 times.(‡“ê†
+W
+java:S1106^"AMove this left curly brace to the beginning of next line of code.(â‡êç
+Z
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ŸãıÂ
+H
+java:S1611K"3Remove the parentheses around the "media" parameter(ùÖ˜Q
+g
+java:S1120ˆ"DMake this line start after 4 spaces to indent the code consistently.(Ü½›¯ùÿÿÿÿ8«ğçê™.
+m
+java:S1132|"KMove the "movie" string literal on the left side of this string comparison.(»ì›Ğÿÿÿÿÿ8½ç¾æ™.
+Q
+java:S1449,"6Define the locale to be used in this String operation.(¹ÿ§­şÿÿÿÿ
+z
+java:S1312"dMake the "logger" logger private static final and rename it to comply with the format "LOG(?:GER)?".(˜”œ¦
+_
+java:S1120R"DMake this line start after 4 spaces to indent the code consistently.(öà¨ıÿÿÿÿ
+Z
+java:S1120^"DMake this line start after 6 spaces to indent the code consistently.(â‡êç
+Y
+java:S1120y"DMake this line start after 4 spaces to indent the code consistently.(¡‹b
+F
+java:S1108]"1Move this "else" keyword to a new dedicated line.(Ù±«
+v	java:S109q"UAssign this magic number 1000 to a well-named constant, and use the constant instead.(ØŸİşÿÿÿÿ8ùÃÏò™.
+E
+java:S2039"/Explicitly declare the visibility for "logger".(˜”œ¦
+^
+java:S3457o"AFormat specifiers should be used instead of string concatenation.(÷µˆ¬8ˆ§÷ñ™.
+`	java:S103^"KSplit this 123 characters long line (which is greater than 120 authorized).(â‡êç
+^
+java:S3457€"AFormat specifiers should be used instead of string concatenation.(ş¨a8‹¾ç™.
+V
+java:S1106"AMove this left curly brace to the beginning of next line of code.(÷§ñ&
+Z
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(˜”œ¦
+\
+java:S1106_"AMove this left curly brace to the beginning of next line of code.(üç¤Àùÿÿÿÿ
+w	java:S109‚"UAssign this magic number 1000 to a well-named constant, and use the constant instead.(ØŸİşÿÿÿÿ8§ìÏò™.
+\
+java:S1106F"AMove this left curly brace to the beginning of next line of code.(ßœ—Íşÿÿÿÿ
+O
+java:S2196["4Convert this "if/else if" structure into a "switch".(¨§Âøÿÿÿÿ
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ÊÄäùÿÿÿÿ
+W
+java:S1106#"AMove this left curly brace to the beginning of next line of code.(‡“ê†
+T
+java:S2629€"7Use the built-in formatting to construct this argument.(ş¨a8‹¾ç™.
+d
+java:S1106"AMove this left curly brace to the beginning of next line of code.(è†¯—şÿÿÿÿ8ãŸˆî™.
+W
+java:S1106x"AMove this left curly brace to the beginning of next line of code.(¬ˆıŞ
+Z
+java:S11204"DMake this line start after 4 spaces to indent the code consistently.(Úúø˜
+_
+java:S3457“"AFormat specifiers should be used instead of string concatenation.(¤›Ö§8ÎÊìğ™.
+S
+java:S1449"6Define the locale to be used in this String operation.(åıæÑ8¡Æâ™.
+W
+java:S11063"AMove this left curly brace to the beginning of next line of code.(ÏÒï
+)	java:S121"Missing curly brace.(®ëù©
+W
+java:S1106C"AMove this left curly brace to the beginning of next line of code.(‰›¹
+a
+java:S1132"KMove the "movie" string literal on the left side of this string comparison.(®ëù©
+`
+java:S1132]"KMove the "movie" string literal on the left side of this string comparison.(Ù±«

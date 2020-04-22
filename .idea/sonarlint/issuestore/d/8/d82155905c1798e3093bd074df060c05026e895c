@@ -1,0 +1,52 @@
+
+Z
+java:S1120"DMake this line start after 8 spaces to indent the code consistently.(Œ£¦¸
+z
+java:S1312"dMake the "logger" logger private static final and rename it to comply with the format "LOG(?:GER)?".(Ç´È¨
+Y
+java:S1120G"DMake this line start after 4 spaces to indent the code consistently.(ŠõéY
+Z
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(Ç´È¨
+\
+java:S1106("AMove this left curly brace to the beginning of next line of code.(¨ÐƒËÿÿÿÿÿ
+_
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(˜ó„©øÿÿÿÿ
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¬²ß¡
+Z
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ÇÓÁŠ
+B
+java:S1612.",Replace this lambda with a method reference.(ØÐ±ø
+W
+java:S11063"AMove this left curly brace to the beginning of next line of code.(àõæž
+_
+java:S11204"DMake this line start after 4 spaces to indent the code consistently.(¹ºÒ¸þÿÿÿÿ
+W
+java:S1106F"AMove this left curly brace to the beginning of next line of code.(ÄÐã¢
+4
+java:S1451"&Add or update the header of this file.
+\
+java:S1192"FDefine a constant instead of duplicating this literal "movie" 3 times.(ˆï­½
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(”˜¸¹
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(‘ÿþÆýÿÿÿÿ
+E
+java:S2039"/Explicitly declare the visibility for "logger".(Ç´È¨
+i
+java:S1699"NRemove this call from a constructor to the overridable "openMediaPage" method.(˜ó„©øÿÿÿÿ
+_
+java:S1120 "DMake this line start after 8 spaces to indent the code consistently.(ÈÇÐÑûÿÿÿÿ
+\
+java:S1106@"AMove this left curly brace to the beginning of next line of code.(‚å´Îøÿÿÿÿ
+Z
+java:S1120$"DMake this line start after 8 spaces to indent the code consistently.(Œ£¦¸
+_
+java:S1120)"DMake this line start after 4 spaces to indent the code consistently.(Ê‚ÌÒúÿÿÿÿ
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.( ˜ððøÿÿÿÿ
+K
+java:S1611."5Remove the parentheses around the "element" parameter(ØÐ±ø
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®ÓžØ
+Y
+java:S1120A"DMake this line start after 4 spaces to indent the code consistently.(ŠõéY

@@ -1,6 +1,7 @@
 package web;
 
 import api.MediaApi;
+import constants.Type;
 import core.web.TestBase;
 import model.Media;
 import org.testng.annotations.AfterTest;
@@ -17,8 +18,8 @@ public class TvShowsTests extends TestBase {
 
     @AfterTest()
     public void afterTest() {
-        if(MediaApi.getMediaFromFavorites("tv").size() != 0){
-            MediaApi.removeAllMediaFromFavorites("tv");
+        if(MediaApi.getMediaFromFavorites(Type.TVSHOW).size() != 0){
+            MediaApi.removeAllMediaFromFavorites(Type.TVSHOW);
         }
     }
 
