@@ -1,7 +1,7 @@
 package api;
 
 import constants.Category;
-import constants.Type;
+import constants.MediaType;
 import core.Logging;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
@@ -13,14 +13,14 @@ public class RateMovieTests extends Logging {
 
     @AfterTest
     public void afterTest() {
-        MediaApi.removeAllRatedMedia(Type.MOVIE);
+        MediaApi.removeAllRatedMedia(MediaType.MOVIE);
     }
 
     @Test
     public void apiRateMovieTest(){
-        String mediaId = MediaApi.rateRandomMedia(Type.MOVIE, Category.NOW, "8.5");
+        String mediaId = MediaApi.rateRandomMedia(MediaType.MOVIE, Category.NOW, "8.5");
 
         assertThat("",
-                MediaApi.getRatedMedia(Type.MOVIE), containsString(mediaId));
+                MediaApi.getRatedMedia(MediaType.MOVIE), containsString(mediaId));
     }
 }
