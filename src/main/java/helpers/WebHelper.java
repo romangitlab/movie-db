@@ -5,8 +5,6 @@ import org.openqa.selenium.*;
 
 import java.util.Properties;
 
-import static java.lang.Thread.sleep;
-
 public class WebHelper {
 
     protected Properties properties = WebManager.getProperties();
@@ -57,13 +55,5 @@ public class WebHelper {
             String location = element.getLocation().toString();
             JavascriptExecutor JSExecutor = (JavascriptExecutor)webDriver;
             JSExecutor.executeScript("window.scrollBy" + location + "");
-    }
-
-    public static void sleepFor(int time){
-        try {
-            sleep(time);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 }

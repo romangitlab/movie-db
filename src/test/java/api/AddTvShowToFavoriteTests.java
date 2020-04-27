@@ -1,7 +1,8 @@
 package api;
 
 import constants.Category;
-import constants.Type;
+import constants.MediaType;
+import constants.Page;
 import core.Logging;
 import model.Media;
 import model.MediaData;
@@ -15,16 +16,16 @@ public class AddTvShowToFavoriteTests extends Logging {
 
     @AfterTest()
     public void afterTest() {
-        if(MediaApi.getMediaFromFavorites(Type.TVSHOW).size() != 0){
-            MediaApi.removeAllMediaFromFavorites(Type.TVSHOW);
+        if(MediaApi.getMediaFrom(MediaType.TVSHOW, Page.FAVORITE).size() != 0){
+            MediaApi.removeAllMediaFrom(MediaType.TVSHOW, Page.FAVORITE);
         }
     }
 
     @Test
     public void apiAddingTvShowsToFavoriteTest(){
-        Media beforeMedia = MediaApi.getMediaFromFavorites(Type.TVSHOW);
-        MediaData mediaData = MediaApi.addRandomMediaToFavorite(Type.TVSHOW, Category.POPULAR);
-        Media afterMedia = MediaApi.getMediaFromFavorites(Type.TVSHOW);
+        Media beforeMedia = MediaApi.getMediaFrom(MediaType.TVSHOW, Page.FAVORITE);
+        MediaData mediaData = MediaApi.addRandomMediaTo(MediaType.TVSHOW, Page.FAVORITE, Category.POPULAR);
+        Media afterMedia = MediaApi.getMediaFrom(MediaType.TVSHOW, Page.FAVORITE);
 
         assertThat("",
                 afterMedia, equalTo(beforeMedia.withAdded(mediaData)));

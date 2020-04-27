@@ -1,12 +1,12 @@
 package constants;
 
-public enum Type {
+public enum MediaType {
     MOVIE("movie"),
     TVSHOW("tv");
 
     private String media;
 
-    Type(String media){
+    MediaType(String media){
         this.media = media;
     }
 

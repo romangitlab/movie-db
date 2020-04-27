@@ -50,25 +50,34 @@ public class CommonApi {
         return requestSpecification;
     }
 
+    protected static JsonElement getJsonElement(String json, String jsonElement) {
+        JsonElement parsed = new JsonParser().parse(json);
+
+        return parsed.getAsJsonObject().get(jsonElement);
+    }
+
     public static String  favoriteBody(String mediaType, Boolean status, String id) {
         return
                 "{" +
-                    "\"media_type\":\"" + mediaType + "\"," +
-                    "\"media_id\":\"" + id + "\"," +
-                    "\"favorite\":" + status + "" +
-                "}";
+                        "\"media_type\":\"" + mediaType + "\"," +
+                        "\"media_id\":\"" + id + "\"," +
+                        "\"favorite\":" + status + "" +
+                        "}";
+    }
+
+    public static String bodyTo(String mediaType, Boolean status, String id, String page) {
+        return
+                "{" +
+                        "\"media_type\":\"" + mediaType + "\"," +
+                        "\"media_id\":\"" + id + "\"," +
+                        "\""+page+"\":" + status + "" +
+                        "}";
     }
 
     public static String rateBody(String rate) {
         return
                 "{" +
-                    "\"value\":\"" + rate + "\"" +
-                "}";
-    }
-
-    protected static JsonElement getJsonElement(String json, String jsonElement) {
-        JsonElement parsed = new JsonParser().parse(json);
-
-        return parsed.getAsJsonObject().get(jsonElement);
+                        "\"value\":\"" + rate + "\"" +
+                        "}";
     }
 }

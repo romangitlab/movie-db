@@ -6,8 +6,9 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import constants.Category;
-import constants.Type;
-import helpers.WebHelper;
+import constants.MediaType;
+import constants.Page;
+import helpers.Helper;
 import model.Media;
 import model.MediaData;
 import org.slf4j.Logger;
@@ -21,34 +22,21 @@ import java.util.Set;
 public class MediaApi extends CommonApi {
     static Logger logger = LoggerFactory.getLogger(MediaApi.class);
 
-    public static Media getMediaFromFavorites(Type type) {
-        logger.info("Run: getMediaFromFavorites()");
+    public static Media getMediaFrom(MediaType type, Page page) {
+        logger.info("Run: getMediaFrom()");
 
         String mediaType = type.get();
         if(mediaType.equals("movie")) mediaType = "movies";
 
-        WebHelper.sleepFor(2000);
+        Helper.sleepFor(1000);
 
         String json = CommonApi.requestSpecification()
-                .get(CommonApi.baseApiUrl + "account/1/favorite/" + mediaType).asString();
+                .get(CommonApi.baseApiUrl + "account/1/"+page.get()+"/" + mediaType).asString();
 
         return new Gson().fromJson(CommonApi.getJsonElement(json, "results"), new TypeToken<Media>(){}.getType());
     }
 
-    public static MediaData addRandomMediaToFavorite(Type type, Category category) {
-        logger.info("Run: addRandomMediaToFavorite()");
-
-        MediaData mediaData = getRandomMedia(type, category);
-
-        String result = CommonApi.requestSpecification(CommonApi.favoriteBody(type.get(), true, mediaData.getId()))
-                .post(CommonApi.baseApiUrl + "account/1/favorite").asString().toLowerCase();
-
-        Assert.isTrue(result.contains("success"), "Failed -> addRandomMediaToFavorite()");
-
-        return mediaData;
-    }
-
-    public static MediaData getRandomMedia(Type type, Category category) {
+    public static MediaData getRandomMedia(MediaType type, Category category) {
         logger.info("Run: getRandomMedia()");
 
         List<MediaData> mediaList = getCategoryMedia(type, category);
@@ -58,7 +46,7 @@ public class MediaApi extends CommonApi {
         return mediaList.get(randomMedia);
     }
 
-    public static List<MediaData> getCategoryMedia(Type type, Category category) {
+    public static List<MediaData> getCategoryMedia(MediaType type, Category category) {
         logger.info("Run: getCategoryMedia(" + type.get()+"/"+category.get()+")");
 
         String json = CommonApi.requestSpecification()
@@ -67,14 +55,14 @@ public class MediaApi extends CommonApi {
         return new Gson().fromJson(CommonApi.getJsonElement(json, "results"), new TypeToken<List<MediaData>>(){}.getType());
     }
 
-    public static void removeAllMediaFromFavorites(Type type) {
-        logger.info("Run: removeAllMediaFromFavorites()");
+    public static void removeAllMediaFrom(MediaType type, Page page) {
+        logger.info("Run: removeAllMediaFromWatchlist()");
 
-        Set<MediaData> medias = getMediaFromFavorites(type);
+        Set<MediaData> medias = getMediaFrom(type, page);
 
         medias.stream().forEach((media) ->{
-            CommonApi.requestSpecification(CommonApi.favoriteBody(type.get(), false, media.getId()))
-                    .post(CommonApi.baseApiUrl + "account/1/favorite");
+            CommonApi.requestSpecification(CommonApi.bodyTo(type.get(), false, media.getId(), page.get()))
+                    .post(CommonApi.baseApiUrl + "account/1/"+page.get());
         });
     }
 
@@ -101,7 +89,7 @@ public class MediaApi extends CommonApi {
         return media;
     }
 
-    public static String rateRandomMedia(Type type, Category category, String rate) {
+    public static String rateRandomMedia(MediaType type, Category category, String rate) {
         logger.info("Run: rateRandomMedia()");
 
         String mediaId = getRandomMedia(type, category).id;
@@ -110,14 +98,14 @@ public class MediaApi extends CommonApi {
                 .post(CommonApi.baseApiUrl + type.get()+"/"+mediaId+"/rating").asString().toLowerCase();
         logger.info("Rate media response: " + result);
 
-        WebHelper.sleepFor(1000);
+        Helper.sleepFor(1000);
 
         Assert.isTrue(result.contains("success"), "Failed -> addRandomMediaToFavorite()");
 
         return mediaId;
     }
 
-    public static String getRatedMedia(Type type) {
+    public static String getRatedMedia(MediaType type) {
         logger.info("Run: getRatedMedia()");
 
         String media = type.get();
@@ -126,13 +114,14 @@ public class MediaApi extends CommonApi {
         String result = CommonApi.requestSpecification()
                 .get(CommonApi.baseApiUrl + "account/9109755/rated/"+media).asString().toLowerCase();
         logger.info("Get rate response: " + result);
+        logger.info("Get rate response: " + result);
 
-        WebHelper.sleepFor(1000);
+        Helper.sleepFor(1000);
 
         return result;
     }
 
-    public static void removeAllRatedMedia(Type type) {
+    public static void removeAllRatedMedia(MediaType type) {
         logger.info("Run: removeRatedMedia()");
 
         String ratedMedia = getRatedMedia(type);
@@ -146,6 +135,20 @@ public class MediaApi extends CommonApi {
 
             logger.info("Delete rate response: " + response);
         }
+    }
+
+    public static MediaData addRandomMediaTo(MediaType type, Page page, Category category) {
+        logger.info("Run: addRandomMediaTo()");
+
+        MediaData mediaData = getRandomMedia(type, category);
+
+        String result = CommonApi.requestSpecification(CommonApi.bodyTo(type.get(), true, mediaData.getId(), page.get()))
+                .post(CommonApi.baseApiUrl + "account/9109755/"+page.get()).asString().toLowerCase();
+        logger.info("Get rate response: " + result);
+
+        Assert.isTrue(result.contains("success"), "Failed -> addRandomMediaTo()");
+
+        return mediaData;
     }
 
 }
