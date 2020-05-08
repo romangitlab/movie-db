@@ -61,7 +61,11 @@ public class WebManager {
 
     public static boolean isMW() {
         if (isMob == null) {
-            isMob = getPlatform().equals("mobile");
+            try {
+                isMob = getPlatform().equals("mobile");
+            } catch (Exception e) {
+                return false;
+            }
         }
 
         return isMob;

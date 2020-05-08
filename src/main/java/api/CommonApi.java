@@ -4,6 +4,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.specification.RequestSpecification;
+import helpers.Helper;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -51,21 +52,16 @@ public class CommonApi {
     }
 
     protected static JsonElement getJsonElement(String json, String jsonElement) {
-        JsonElement parsed = new JsonParser().parse(json);
-
-        return parsed.getAsJsonObject().get(jsonElement);
+        return new JsonParser().parse(json).getAsJsonObject().get(jsonElement);
     }
 
-    public static String  favoriteBody(String mediaType, Boolean status, String id) {
-        return
-                "{" +
-                        "\"media_type\":\"" + mediaType + "\"," +
-                        "\"media_id\":\"" + id + "\"," +
-                        "\"favorite\":" + status + "" +
-                        "}";
+    protected static JsonElement getJsonArray(String json, String jsonElement) {
+        json = "{\"results\":["+ json +"]}";
+
+        return new JsonParser().parse(json).getAsJsonObject().get(jsonElement);
     }
 
-    public static String bodyTo(String mediaType, Boolean status, String id, String page) {
+    public static String pageBody(String mediaType, Boolean status, String id, String page) {
         return
                 "{" +
                         "\"media_type\":\"" + mediaType + "\"," +
@@ -74,10 +70,28 @@ public class CommonApi {
                         "}";
     }
 
+    public static String listBody() {
+        return
+                "{" +
+                    "\"name\":\""+ Helper.randomData() +"\"," +
+                    "\"description\":\"Random list\"," +
+                    "\"language\":\"en\"" +
+                "}";
+
+
+    }
+
     public static String rateBody(String rate) {
         return
                 "{" +
                         "\"value\":\"" + rate + "\"" +
                         "}";
+    }
+
+    public static String mediaBody(String rate) {
+        return
+                "{" +
+                    "\"media_id\":\"" + rate + "\"" +
+                "}";
     }
 }
