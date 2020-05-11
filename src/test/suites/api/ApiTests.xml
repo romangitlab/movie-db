@@ -2,39 +2,24 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Desktop UI Suite" parallel="tests" thread-count="1">
 
-    <test name="Add Movie To Favorite Tests">
+    <test name="Add Media To Favorite Tests">
         <classes>
-            <class name="api.AddMovieToFavoriteTests"/>
+            <class name="api.AddMediaToFavoriteTests"/>
         </classes>
     </test>
-    <test name="Add TvShow To Favorite Tests">
+    <test name="Add Media To Watchlist Tests">
         <classes>
-            <class name="api.AddTvShowToFavoriteTests"/>
+            <class name="api.AddMediaToWatchlistTests"/>
         </classes>
     </test>
-    <test name="Add Movie To Watchlist Tests">
+    <test name="Rate Media Tests">
         <classes>
-            <class name="api.AddMovieToWatchlistTests"/>
+            <class name="api.RateMediaTests"/>
         </classes>
     </test>
-    <test name="Add TvShow To Watchlist Tests">
+    <test name="Check Media Lists Tests">
         <classes>
-            <class name="api.AddTvShowToWatchlistTests"/>
-        </classes>
-    </test>
-    <test name="Add TvShow To Watchlist Tests">
-        <classes>
-            <class name="api.AddTvShowToWatchlistTests"/>
-        </classes>
-    </test>
-    <test name="Rate Movie Tests">
-        <classes>
-            <class name="api.RateMovieTests"/>
-        </classes>
-    </test>
-    <test name="Rate TvShow Tests">
-        <classes>
-            <class name="api.RateTvShowTests"/>
+            <class name="api.CheckMediaListsTests"/>
         </classes>
     </test>
     <test name="SearchTests">
