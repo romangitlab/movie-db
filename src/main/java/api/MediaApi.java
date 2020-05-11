@@ -224,7 +224,7 @@ public class MediaApi extends CommonApi {
         logger.info("Request to: " + CommonApi.baseApiUrl + "list/"+list_id+"/add_item");
         logger.info("Got response: " + result);
 
-        Helper.sleepFor(1000);
+        Helper.sleepFor(1500);
 
         Assert.isTrue(result.contains("record was updated successfully"), "Failed -> addRandomMediaToPlayList()");
 
