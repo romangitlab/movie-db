@@ -1,5 +1,6 @@
 package pages.web.Media;
 
+import helpers.Helper;
 import helpers.WebHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -9,7 +10,6 @@ import pages.web.Search.SearchPage;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 import java.util.stream.Collectors;
 
 public class MediaPage extends WebHelper {
@@ -52,9 +52,7 @@ public class MediaPage extends WebHelper {
         logger.info("Run: openRandomMedia()");
 
         List<WebElement> medias = geMediaList();
-        int mediaCount = medias.size();
-        int randomMedia = new Random().nextInt(mediaCount);
-        WebElement media = medias.get(randomMedia);
+        WebElement media = medias.get(Helper.getRandomNumber(medias.size()));
         scrollWebPageTo(media);
         media.findElement(By.cssSelector("div.image>div>a")).click();
 

@@ -15,7 +15,10 @@ import pages.web.Profile.ProfileFavoritesPage;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class MoviesTests extends TestBase {
+public class addMovieToFavoriteTests extends TestBase {
+
+    int amountBefore = 0;
+    Media mediaDataBefore = new Media();
 
     @AfterTest()
     public void afterTest() {
@@ -27,18 +30,15 @@ public class MoviesTests extends TestBase {
     @Test
     public void webAddingMovieToFavoriteTest(){
         new LoginPage().login();
-        ProfileFavoritesPage profileFavoritesPage = new ProfileFavoritesPage("movie");
-        Media mediaDataBefore = profileFavoritesPage.getFavoriteList();
-        int сountBefore = profileFavoritesPage.getFavoritesCount();
         MediaPage mediaPage = new MediaPage("movie");
         MediaItemPage mediaItemPage = mediaPage.openRandomMedia().setMediaData();
         mediaItemPage.addToFavorites();
-        profileFavoritesPage.openFavoritesPage("movie");
+        ProfileFavoritesPage profileFavoritesPage = new ProfileFavoritesPage("movie");
         Media mediaDataAfter = profileFavoritesPage.getFavoriteList();
-        int сountAfter = profileFavoritesPage.getFavoritesCount();
+        int amountAfter = profileFavoritesPage.getFavoritesCount();
 
         assertThat("",
-                сountAfter, equalTo(сountBefore + 1));
+                amountAfter, equalTo( amountBefore+1));
         assertThat("",
                 mediaDataAfter, equalTo(mediaDataBefore.withAdded(mediaItemPage.getMediaData())));
     }

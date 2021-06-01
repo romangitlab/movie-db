@@ -1,5 +1,6 @@
 package api;
 
+import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.jayway.restassured.RestAssured;
@@ -32,27 +33,28 @@ public class CommonApi {
         return properties;
     }
 
-    public static RequestSpecification requestSpecification() {
-        RequestSpecification requestSpecification = RestAssured.given()
-                .queryParam("Content-Type", "application/json;charset=utf-8")
+    public static RequestSpecification request() {
+        return RestAssured.given()
                 .queryParam("api_key", api_key)
-                .queryParam("session_id", session_id);
+                .queryParam("session_id", session_id)
+                .contentType("application/json;charset=utf-8");
 
-        return requestSpecification;
     }
 
-    public static RequestSpecification requestSpecification(String body) {
-        RequestSpecification requestSpecification = RestAssured.given()
+    public static RequestSpecification request(String body) {
+        return RestAssured.given()
                 .queryParam("api_key", api_key)
                 .queryParam("session_id", session_id)
                 .contentType("application/json;charset=utf-8")
                 .body(body);
-
-        return requestSpecification;
     }
 
     protected static JsonElement getJsonElement(String json, String jsonElement) {
         return new JsonParser().parse(json).getAsJsonObject().get(jsonElement);
+    }
+
+    protected static JsonArray getAsJsonArray(String json, String jsonElement) {
+       return new JsonParser().parse(json).getAsJsonObject().get(jsonElement).getAsJsonArray();
     }
 
     protected static JsonElement getJsonArray(String json, String jsonElement) {
@@ -64,10 +66,10 @@ public class CommonApi {
     public static String pageBody(String mediaType, Boolean status, String id, String page) {
         return
                 "{" +
-                        "\"media_type\":\"" + mediaType + "\"," +
-                        "\"media_id\":\"" + id + "\"," +
-                        "\""+page+"\":" + status + "" +
-                        "}";
+                    "\"media_type\":\"" + mediaType + "\"," +
+                    "\"media_id\":\"" + id + "\"," +
+                    "\""+page+"\":" + status + "" +
+                "}";
     }
 
     public static String listBody() {
@@ -84,8 +86,8 @@ public class CommonApi {
     public static String rateBody(String rate) {
         return
                 "{" +
-                        "\"value\":\"" + rate + "\"" +
-                        "}";
+                    "\"value\":\"" + rate + "\"" +
+                "}";
     }
 
     public static String mediaBody(String rate) {

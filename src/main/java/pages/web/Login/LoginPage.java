@@ -7,13 +7,12 @@ import org.slf4j.LoggerFactory;
 
 public class LoginPage extends WebHelper {
     Logger logger = LoggerFactory.getLogger(LoginPage.class);
+    public String username = properties.getProperty("username");
+    public String password = properties.getProperty("password");
 
     public LoginPage(){
         openLoginPage();
     }
-
-    public String username = properties.getProperty("username");
-    public String password = properties.getProperty("password");
 
     public LoginPage openLoginPage(){
         logger.info("Run: openLoginPage()");
@@ -29,6 +28,6 @@ public class LoginPage extends WebHelper {
 
         type(By.id("username"), username);
         type(By.id("password"), password);
-        clickAtElement(By.cssSelector("input[value='Login']"));
+        clickAtElement(By.id("login_button"));
     }
 }

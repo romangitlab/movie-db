@@ -5,17 +5,17 @@
 
     <test name="MoviesTests">
         <classes>
-            <class name="web.MoviesTests"/>
+            <class name="web.addMovieToFavoriteTests"/>
         </classes>
     </test>
     <test name="TvShowsTests">
         <classes>
-            <class name="web.TvShowsTests"/>
+            <class name="web.addTvShowToFavoriteTests"/>
         </classes>
     </test>
     <test name="SearchTests">
         <classes>
-            <class name="web.SearchTests"/>
+            <class name="web.searchMediaTests"/>
         </classes>
     </test>
 </suite>

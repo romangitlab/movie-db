@@ -41,11 +41,11 @@ public class ProfileFavoritesPage extends WebHelper {
         logger.info("Run: getFavoriteList()");
 
         Media media = new Media();
+        MediaData mediaData = new MediaData();
         List<WebElement> elements = webDriver.findElements(By.cssSelector(".results_page>.card"));
 
         elements.stream().forEach((element) -> {
             String title = element.findElement(By.cssSelector("div.title")).getText().split("\n")[0];
-            MediaData mediaData = new MediaData();
             mediaData.setTitle(title);
             media.add(mediaData);
         });

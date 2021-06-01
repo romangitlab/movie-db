@@ -22,10 +22,12 @@ public class WebManager {
     private String browser;
     private static WebDriver wd;
     private static Properties properties;
+    ChromeOptions options;
 
     public WebManager(String browser) {
         this.browser = browser;
         properties = new Properties();
+
     }
 
     public void init() {
@@ -39,7 +41,9 @@ public class WebManager {
         } else if (browser.equals(BrowserType.FIREFOX)) {
             wd = new FirefoxDriver();
         } else if (browser.equals(BrowserType.CHROME)) {
-            wd = new ChromeDriver();
+            options = new ChromeOptions();
+            options.addArguments("--lang=en");
+            wd = new ChromeDriver(options);
         } else if (browser.equals(BrowserType.IE)) {
             wd = new InternetExplorerDriver();
         } else {
@@ -59,7 +63,7 @@ public class WebManager {
         return context.getCurrentXmlTest().getParameter("platform");
     }
 
-    public static boolean isMW() {
+    public static final boolean isMW() {
         if (isMob == null) {
             try {
                 isMob = getPlatform().equals("mobile");

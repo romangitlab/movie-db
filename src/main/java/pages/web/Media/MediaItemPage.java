@@ -53,7 +53,7 @@ public class MediaItemPage extends WebHelper {
     }
 
     public MediaItemPage acceptCookiePolicy(){
-        if (WebManager.isMW()) {
+        if (!WebManager.isMW()) {
             clickAtElement(By.cssSelector("p>a.accept"));
         }
 

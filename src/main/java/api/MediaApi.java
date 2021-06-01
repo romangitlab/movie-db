@@ -2,9 +2,7 @@ package api;
 
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
-import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
-import com.google.gson.JsonParser;
 import constants.Category;
 import constants.MediaType;
 import constants.Page;
@@ -31,10 +29,10 @@ public class MediaApi extends CommonApi {
 
         Helper.sleepFor(1000);
 
-        String json = CommonApi.requestSpecification()
-                .get(CommonApi.baseApiUrl + "account/1/"+page.get()+"/" + mediaType).asString();
+        String json = request()
+                .get(baseApiUrl + "account/1/"+page.get()+"/" + mediaType).asString();
 
-        return new Gson().fromJson(CommonApi.getJsonElement(json, "results"), new TypeToken<Media>(){}.getType());
+        return new Gson().fromJson(getJsonElement(json, "results"), new TypeToken<Media>(){}.getType());
     }
 
     public static MediaData getRandomMedia(MediaType type, Category category) {
@@ -50,12 +48,12 @@ public class MediaApi extends CommonApi {
     public static List<MediaData> getCategoryMedia(MediaType type, Category category) {
         logger.info("Run: getCategoryMedia(" + type.get()+"/"+category.get()+")");
 
-        String json = CommonApi.requestSpecification()
-                .get(CommonApi.baseApiUrl + type.get() + "/" + category.get()).asString();
+        String json = request()
+                .get(baseApiUrl + type.get() + "/" + category.get()).asString();
 
         Helper.sleepFor(1000);
 
-        return new Gson().fromJson(CommonApi.getJsonElement(json, "results"), new TypeToken<List<MediaData>>(){}.getType());
+        return new Gson().fromJson(getJsonElement(json, "results"), new TypeToken<List<MediaData>>(){}.getType());
     }
 
     public static void removeAllMediaFrom(MediaType type, Page page) {
@@ -64,8 +62,8 @@ public class MediaApi extends CommonApi {
         Set<MediaData> medias = getMediaFrom(type, page);
 
         medias.stream().forEach((media) ->{
-            CommonApi.requestSpecification(CommonApi.pageBody(type.get(), false, media.getId(), page.get()))
-                    .post(CommonApi.baseApiUrl + "account/1/"+page.get());
+            request(pageBody(type.get(), false, media.getId(), page.get()))
+                    .post(baseApiUrl + "account/1/"+page.get());
         });
     }
 
@@ -75,16 +73,16 @@ public class MediaApi extends CommonApi {
         Gson gson = new Gson();
         List<MediaData> media;
 
-        String json = CommonApi.requestSpecification()
+        String json = request()
                 .queryParam("query", searchText)
-                .get(CommonApi.baseApiUrl + "search/" + mediaType).asString();
+                .get(baseApiUrl + "search/" + mediaType).asString();
 
         if(mediaType.equals("tv")) {
-            media =  gson.fromJson(CommonApi.getJsonElement(json, "results"), new TypeToken<List<MediaData>>(){}.getType());
+            media =  gson.fromJson(getJsonElement(json, "results"), new TypeToken<List<MediaData>>(){}.getType());
         } else if(mediaType.equals("movie")) {
-            media = gson.fromJson(CommonApi.getJsonElement(json, "results"), new TypeToken<List<MediaData>>(){}.getType());
+            media = gson.fromJson(getJsonElement(json, "results"), new TypeToken<List<MediaData>>(){}.getType());
         } else if(mediaType.equals("multi")) {
-            media = gson.fromJson(CommonApi.getJsonElement(json, "results"), new TypeToken<List<MediaData>>(){}.getType());
+            media = gson.fromJson(getJsonElement(json, "results"), new TypeToken<List<MediaData>>(){}.getType());
         } else {
             throw new IllegalArgumentException("Illegal media type");
         }
@@ -96,8 +94,8 @@ public class MediaApi extends CommonApi {
         logger.info("Run: rateRandomMedia()");
 
         String mediaId = getRandomMedia(type, category).getId();
-        String result = CommonApi.requestSpecification(CommonApi.rateBody(rate))
-                .post(CommonApi.baseApiUrl + type.get()+"/"+mediaId+"/rating").asString().toLowerCase();
+        String result = request(rateBody(rate))
+                .post(baseApiUrl + type.get()+"/"+mediaId+"/rating").asString().toLowerCase();
 
         logger.info("Rate media response: " + result);
         Helper.sleepFor(1000);
@@ -114,8 +112,8 @@ public class MediaApi extends CommonApi {
 
         if(type.get().equals("movie")) media = "movies" ;
 
-        String result = CommonApi.requestSpecification()
-                .get(CommonApi.baseApiUrl + "account/9109755/rated/"+media).asString().toLowerCase();
+        String result = request()
+                .get(baseApiUrl + "account/9109755/rated/"+media).asString().toLowerCase();
 
         logger.info("Got rate response: " + result);
         Helper.sleepFor(1000);
@@ -127,12 +125,11 @@ public class MediaApi extends CommonApi {
         logger.info("Run: removeRatedMedia()");
 
         String ratedMedia = getRatedMedia(type);
-        JsonArray mediaArray = new JsonParser().parse(ratedMedia).getAsJsonObject().get("results").getAsJsonArray();
 
-        for (JsonElement media : mediaArray){
+        for (JsonElement media : getAsJsonArray(ratedMedia, "results")){
             String id = media.getAsJsonObject().get("id").toString();
-            String response = CommonApi.requestSpecification()
-                    .delete(CommonApi.baseApiUrl + type.get()+"/"+id+"/rating").asString();
+            String response = request()
+                    .delete(baseApiUrl + type.get()+"/"+id+"/rating").asString();
 
             logger.info("Delete rate response: " + response);
         }
@@ -142,8 +139,8 @@ public class MediaApi extends CommonApi {
         logger.info("Run: addRandomMediaTo()");
 
         MediaData mediaData = getRandomMedia(type, category);
-        String result = CommonApi.requestSpecification(CommonApi.pageBody(type.get(), true, mediaData.getId(), page.get()))
-                .post(CommonApi.baseApiUrl + "account/9109755/"+page.get()).asString().toLowerCase();
+        String result = request(pageBody(type.get(), true, mediaData.getId(), page.get()))
+                .post(baseApiUrl + "account/9109755/"+page.get()).asString().toLowerCase();
 
         logger.info("Got rate response: " + result);
 
@@ -155,13 +152,13 @@ public class MediaApi extends CommonApi {
     public static String createRandomPlayList() {
         logger.info("Run: createRandomPlayList()");
 
-        String result = CommonApi.requestSpecification(CommonApi.listBody())
-                .post(CommonApi.baseApiUrl + "list").asString();
+        String result = request(listBody())
+                .post(baseApiUrl + "list").asString();
         logger.info("Got response: " + result);
 
         Assert.isTrue(result.contains("The item/record was created successfully"), "Failed -> addRandomMediaToPlayList()");
 
-        return CommonApi.getJsonElement(result, "list_id").toString();
+        return getJsonElement(result, "list_id").toString();
     }
 
     public static void deleteAllPlayLists() {
@@ -170,16 +167,16 @@ public class MediaApi extends CommonApi {
         Media lists = getCreatedPlayList("", true);
 
         for (MediaData list : lists){
-            String response = CommonApi.requestSpecification()
-                    .delete(CommonApi.baseApiUrl + "list/"+list.getId()).asString();
+            String response = request()
+                    .delete(baseApiUrl + "list/"+list.getId()).asString();
             logger.info("Delete list response: " + response);
         }
     }
 
     public static String deletePlayList(String playList) {
         logger.info("Run: deletePlayList()");
-        String result = CommonApi.requestSpecification(CommonApi.listBody())
-                .delete(CommonApi.baseApiUrl + "list/" + playList).asString();
+        String result = request(listBody())
+                .delete(baseApiUrl + "list/" + playList).asString();
 
         logger.info("Got response: " + result);
 
@@ -193,21 +190,21 @@ public class MediaApi extends CommonApi {
         String response;
 
         if(!getAllLists) {
-            response = CommonApi.requestSpecification()
-                    .get(CommonApi.baseApiUrl + "list/" + list_id).asString();
+            response = request()
+                    .get(baseApiUrl + "list/" + list_id).asString();
             logger.info("Got 'list' response: " + response);
 
-            media = new Gson().fromJson(CommonApi.getJsonArray(response, "results"), new TypeToken<Media>() {}.getType());
+            media = new Gson().fromJson(getJsonArray(response, "results"), new TypeToken<Media>() {}.getType());
             media.iterator().next().setResponse(response);
 
         } else {
 
-            response = CommonApi.requestSpecification()
-                    .get(CommonApi.baseApiUrl + "account/9109755/lists").asString().toLowerCase();
+            response = request()
+                    .get(baseApiUrl + "account/9109755/lists").asString().toLowerCase();
 
             logger.info("Got 'lists' response: " + response);
 
-            media = new Gson().fromJson(CommonApi.getJsonElement(response, "results"), new TypeToken<Media>(){}.getType());
+            media = new Gson().fromJson(getJsonElement(response, "results"), new TypeToken<Media>(){}.getType());
         }
 
         return media;
@@ -218,10 +215,10 @@ public class MediaApi extends CommonApi {
 
         MediaData mediaData = getRandomMedia(type, category);
 
-        String result = CommonApi.requestSpecification(CommonApi.mediaBody(mediaData.getId()))
-                .post(CommonApi.baseApiUrl + "list/"+list_id+"/add_item").asString().toLowerCase();
+        String result = request(mediaBody(mediaData.getId()))
+                .post(baseApiUrl + "list/"+list_id+"/add_item").asString().toLowerCase();
 
-        logger.info("Request to: " + CommonApi.baseApiUrl + "list/"+list_id+"/add_item");
+        logger.info("Request to: " + baseApiUrl + "list/"+list_id+"/add_item");
         logger.info("Got response: " + result);
 
         Helper.sleepFor(1500);
@@ -234,11 +231,11 @@ public class MediaApi extends CommonApi {
     public static String clearAllMediaFromPlayList(String list_id) {
         logger.info("Run: clearAllMediaFromPlayList()");
 
-        String response = CommonApi.requestSpecification()
+        String response = request()
                 .queryParam("confirm", true)
-                .post(CommonApi.baseApiUrl + "list/"+list_id+"/clear").asString().toLowerCase();
+                .post(baseApiUrl + "list/"+list_id+"/clear").asString().toLowerCase();
 
-        logger.info("Request to: " + CommonApi.baseApiUrl + "list/"+list_id+"/clear");
+        logger.info("Request to: " + baseApiUrl + "list/"+list_id+"/clear");
         logger.info("Got response: " + response);
 
         Assert.isTrue(response.contains("item/record was updated successfully."), "Failed -> clearAllMediaFromPlayList()");
@@ -249,8 +246,8 @@ public class MediaApi extends CommonApi {
     public static MediaData removeRandomMediaFromPlayList(MediaData mediaData, String list_id) {
         logger.info("Run: removeRandomMediaToPlayList()");
 
-        String response = CommonApi.requestSpecification(CommonApi.mediaBody(mediaData.getId()))
-                .post(CommonApi.baseApiUrl + "list/"+list_id+"/remove_item").asString().toLowerCase();
+        String response = request(mediaBody(mediaData.getId()))
+                .post(baseApiUrl + "list/"+list_id+"/remove_item").asString().toLowerCase();
 
         mediaData.setResponse(response);
 

@@ -10,7 +10,7 @@ import pages.web.Search.SearchPage;
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class SearchTests extends TestBase {
+public class searchMediaTests extends TestBase {
 
     @BeforeTest()
     public void beforeTest() {
