@@ -32,6 +32,7 @@ public class WebManager {
 
     public void init() {
         try {
+            System.setProperty("webdriver.chrome.driver","C:/Users/roman/Desktop/movie-db/chromedriver.exe");
             properties.load(new FileInputStream("src/main/resources/settings.properties"));
         } catch (IOException e) {
             e.printStackTrace();
