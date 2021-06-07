@@ -1,5 +1,6 @@
 package core.web;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -33,6 +34,7 @@ public class WebManager {
     public void init() {
         try {
             System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+            WebDriverManager.chromedriver().setup();
             properties.load(new FileInputStream("src/main/resources/settings.properties"));
         } catch (IOException e) {
             e.printStackTrace();
