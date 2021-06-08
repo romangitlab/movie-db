@@ -1,12 +1,12 @@
 package core.web;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestContext;
 import org.testng.Reporter;
 
@@ -42,12 +42,25 @@ public class WebManager {
         } else if (browser.equals(BrowserType.FIREFOX)) {
             wd = new FirefoxDriver();
         } else if (browser.equals(BrowserType.CHROME)) {
-            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+            //System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 
-            WebDriverManager.chromedriver().setup();
-            options = new ChromeOptions();
-            options.addArguments("--lang=en");
-            wd = new ChromeDriver(options);
+            //WebDriverManager.chromedriver().setup();
+            //options = new ChromeOptions();
+            //options.addArguments("--lang=en");
+            //wd = new ChromeDriver(options);
+
+            final ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.setBinary("/path/to/google-chrome-stable");
+            chromeOptions.addArguments("--headless");
+            chromeOptions.addArguments("--disable-gpu");
+
+            final DesiredCapabilities dc = new DesiredCapabilities();
+            dc.setJavascriptEnabled(true);
+            dc.setCapability(
+                    ChromeOptions.CAPABILITY, chromeOptions
+            );
+
+            WebDriver chrome = new ChromeDriver(dc);
 
         } else if (browser.equals(BrowserType.IE)) {
             wd = new InternetExplorerDriver();

@@ -3,9 +3,9 @@ package api;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
-import com.jayway.restassured.RestAssured;
-import com.jayway.restassured.specification.RequestSpecification;
 import helpers.Helper;
+import io.restassured.RestAssured;
+import io.restassured.specification.RequestSpecification;
 
 import java.io.FileInputStream;
 import java.io.IOException;
