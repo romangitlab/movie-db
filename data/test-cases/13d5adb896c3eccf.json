@@ -1,0 +1,128 @@
+{
+  "uid" : "13d5adb896c3eccf",
+  "name" : "apiRemoveTvShowFromPlayListTest",
+  "fullName" : "api.CheckMediaListsTests.apiRemoveTvShowFromPlayListTest",
+  "historyId" : "349b95ce6c35ea66ce8dc9c455d7dff",
+  "time" : {
+    "start" : 1623187162351,
+    "stop" : 1623187165593,
+    "duration" : 3242
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623187162350,
+      "stop" : 1623187162350,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623187165597,
+      "stop" : 1623187165597,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623187165600,
+      "stop" : 1623187167180,
+      "duration" : 1580
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiRemoveTvShowFromPlayListTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Desktop UI Suite (2)"
+  }, {
+    "name" : "suite",
+    "value" : "Check Media Lists Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-82b9724b-7190-42c4-b732-9aee744bf624"
+  }, {
+    "name" : "thread",
+    "value" : "4304@travis-job-82b9724b-7190-42c4-b732-9aee744bf624.TestNG-tests-1(52)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "22edbb7fa8dfb8ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623185564383,
+          "stop" : 1623185567719,
+          "duration" : 3336
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "13d5adb896c3eccf.json",
+  "parameterValues" : [ ]
+}
