@@ -2,3 +2,6 @@ dist: trusty
 language: java
 jdk:
   - openjdk11
+after_script:
+  - chmod 777 .travis/deploy.sh
+  - .travis/deploy.sh
