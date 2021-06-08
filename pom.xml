@@ -43,7 +43,6 @@
                 <configuration>
                     <suiteXmlFiles>src/test/suites/allTest.xml</suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <skip>true</skip>
                 </configuration>
             </plugin>
         </plugins>
