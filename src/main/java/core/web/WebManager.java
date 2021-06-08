@@ -33,8 +33,6 @@ public class WebManager {
 
     public void init() {
         try {
-            System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-            WebDriverManager.chromedriver().setup();
             properties.load(new FileInputStream("src/main/resources/settings.properties"));
         } catch (IOException e) {
             e.printStackTrace();
@@ -44,9 +42,13 @@ public class WebManager {
         } else if (browser.equals(BrowserType.FIREFOX)) {
             wd = new FirefoxDriver();
         } else if (browser.equals(BrowserType.CHROME)) {
+            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+
+            WebDriverManager.chromedriver().setup();
             options = new ChromeOptions();
             options.addArguments("--lang=en");
             wd = new ChromeDriver(options);
+
         } else if (browser.equals(BrowserType.IE)) {
             wd = new InternetExplorerDriver();
         } else {
