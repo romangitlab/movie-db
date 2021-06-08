@@ -43,17 +43,11 @@ public class WebManager {
             wd = new FirefoxDriver();
         } else if (browser.equals(BrowserType.CHROME)) {
             System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-
-            //WebDriverManager.chromedriver().setup();
-            //options = new ChromeOptions();
-            //options.addArguments("--lang=en");
-            //wd = new ChromeDriver(options);
-
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
+            options.addArguments("--lang=en");
             options.addArguments("--headless");
             wd = new ChromeDriver(options);
-
         } else if (browser.equals(BrowserType.IE)) {
             wd = new InternetExplorerDriver();
         } else {
