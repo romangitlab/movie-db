@@ -1,0 +1,89 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-c269a706-285b-48cc-882c-e3b03558a852', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 8b8799b9ddf72ce9477654eeda768e03\n*** Element info: {Using=css selector, value=p>a.accept}",
+      "children" : [ {
+        "name" : "webAddingMovieToFavoriteTest",
+        "uid" : "91aa1f11f3ba59aa",
+        "parentUid" : "0b591a126a8656ba6eb7ba6659985aca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623185471151,
+          "stop" : 1623185475812,
+          "duration" : 4661
+        },
+        "flaky" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "0b591a126a8656ba6eb7ba6659985aca"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.image>div>a\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-c269a706-285b-48cc-882c-e3b03558a852', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 43bf9861875984fccda819d50139332e\n*** Element info: {Using=css selector, value=div.image>div>a}",
+      "children" : [ {
+        "name" : "webAddingTvShowToFavoriteTest",
+        "uid" : "6b5f4b2f4234850",
+        "parentUid" : "8a846b20844ae7e0a7093f73c8f18afe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623185480722,
+          "stop" : 1623185484095,
+          "duration" : 3373
+        },
+        "flaky" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "8a846b20844ae7e0a7093f73c8f18afe"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-c269a706-285b-48cc-882c-e3b03558a852', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 5933af54aa2acc782ca7ade0d599e99d\n*** Element info: {Using=css selector, value=p>a.accept}",
+      "children" : [ {
+        "name" : "webAddingMovieToFavoriteTest",
+        "uid" : "36839c6564888dee",
+        "parentUid" : "e166c3286acfb1c4f185bf3e885241fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623185494310,
+          "stop" : 1623185498263,
+          "duration" : 3953
+        },
+        "flaky" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "e166c3286acfb1c4f185bf3e885241fb"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.image>div>a\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-c269a706-285b-48cc-882c-e3b03558a852', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: f846795e608a1416abe97fe127604139\n*** Element info: {Using=css selector, value=div.image>div>a}",
+      "children" : [ {
+        "name" : "webAddingTvShowToFavoriteTest",
+        "uid" : "ca1c59f501c50aaa",
+        "parentUid" : "69780b5124d2e937842f3216a22687de",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623185499939,
+          "stop" : 1623185503215,
+          "duration" : 3276
+        },
+        "flaky" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "69780b5124d2e937842f3216a22687de"
+    }, {
+      "name" : "Failed -> addRandomMediaToPlayList()",
+      "children" : [ {
+        "name" : "apiAddTvShowToPlayListTest",
+        "uid" : "1c1d13fdde713d0e",
+        "parentUid" : "de84a394c755be8aa1c043aa077d4c66",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623185550593,
+          "stop" : 1623185553536,
+          "duration" : 2943
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de84a394c755be8aa1c043aa077d4c66"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

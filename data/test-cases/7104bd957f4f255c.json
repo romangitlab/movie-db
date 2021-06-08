@@ -1,0 +1,109 @@
+{
+  "uid" : "7104bd957f4f255c",
+  "name" : "apiDeletePlayListTest",
+  "fullName" : "api.CheckMediaListsTests.apiDeletePlayListTest",
+  "historyId" : "5d2509791714d071d5317c50776db6b0",
+  "time" : {
+    "start" : 1623185559795,
+    "stop" : 1623185560285,
+    "duration" : 490
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623185559790,
+      "stop" : 1623185559794,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623185567721,
+      "stop" : 1623185569362,
+      "duration" : 1641
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623185560286,
+      "stop" : 1623185560286,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiDeletePlayListTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Desktop UI Suite (2)"
+  }, {
+    "name" : "suite",
+    "value" : "Check Media Lists Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-c269a706-285b-48cc-882c-e3b03558a852"
+  }, {
+    "name" : "thread",
+    "value" : "4300@travis-job-c269a706-285b-48cc-882c-e3b03558a852.TestNG-tests-1(51)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7104bd957f4f255c.json",
+  "parameterValues" : [ ]
+}

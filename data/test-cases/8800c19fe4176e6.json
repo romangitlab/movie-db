@@ -1,0 +1,109 @@
+{
+  "uid" : "8800c19fe4176e6",
+  "name" : "apiAddMovieToPlayListTest",
+  "fullName" : "api.CheckMediaListsTests.apiAddMovieToPlayListTest",
+  "historyId" : "a035823a998aebd3af1ae660a129d12a",
+  "time" : {
+    "start" : 1623185547467,
+    "stop" : 1623185550576,
+    "duration" : 3109
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623185547466,
+      "stop" : 1623185547466,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623185567721,
+      "stop" : 1623185569362,
+      "duration" : 1641
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623185550577,
+      "stop" : 1623185550578,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiAddMovieToPlayListTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Desktop UI Suite (2)"
+  }, {
+    "name" : "suite",
+    "value" : "Check Media Lists Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-c269a706-285b-48cc-882c-e3b03558a852"
+  }, {
+    "name" : "thread",
+    "value" : "4300@travis-job-c269a706-285b-48cc-882c-e3b03558a852.TestNG-tests-1(51)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8800c19fe4176e6.json",
+  "parameterValues" : [ ]
+}

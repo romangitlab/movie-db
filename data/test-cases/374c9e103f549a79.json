@@ -1,0 +1,144 @@
+{
+  "uid" : "374c9e103f549a79",
+  "name" : "webSearchMovieTest",
+  "fullName" : "web.searchMediaTests.webSearchMovieTest",
+  "historyId" : "d735328590de45707a15b420f4a4442",
+  "time" : {
+    "start" : 1623185509012,
+    "stop" : 1623185510926,
+    "duration" : 1914
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623185509011,
+      "stop" : 1623185509011,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "baseTest",
+    "time" : {
+      "start" : 1623185504453,
+      "stop" : 1623185504749,
+      "duration" : 296
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1623185504750,
+      "stop" : 1623185507151,
+      "duration" : 2401
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623185510928,
+      "stop" : 1623185510928,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623185512890,
+      "stop" : 1623185512955,
+      "duration" : 65
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "web.searchMediaTests"
+  }, {
+    "name" : "testClass",
+    "value" : "web.searchMediaTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "webSearchMovieTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Desktop UI Suite (1)"
+  }, {
+    "name" : "suite",
+    "value" : "SearchTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "web.searchMediaTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-c269a706-285b-48cc-882c-e3b03558a852"
+  }, {
+    "name" : "thread",
+    "value" : "4300@travis-job-c269a706-285b-48cc-882c-e3b03558a852.TestNG-tests-1(37)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "platform",
+    "value" : "mobile"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "374c9e103f549a79.json",
+  "parameterValues" : [ "mobile" ]
+}
