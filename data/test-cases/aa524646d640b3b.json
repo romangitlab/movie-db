@@ -1,0 +1,137 @@
+{
+  "uid" : "aa524646d640b3b",
+  "name" : "apiClearAllMediaFromListsTest",
+  "fullName" : "api.CheckMediaListsTests.apiClearAllMediaFromListsTest",
+  "historyId" : "71403585ec7d27ea0b60342ac1efe564",
+  "time" : {
+    "start" : 1623218408437,
+    "stop" : 1623218414504,
+    "duration" : 6067
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623218408434,
+      "stop" : 1623218408434,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623218414505,
+      "stop" : 1623218414505,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623218422534,
+      "stop" : 1623218424084,
+      "duration" : 1550
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiClearAllMediaFromListsTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Desktop UI Suite (2)"
+  }, {
+    "name" : "suite",
+    "value" : "Check Media Lists Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-1fb9c4f7-8de5-453d-9584-f276f4466e5e"
+  }, {
+    "name" : "thread",
+    "value" : "4301@travis-job-1fb9c4f7-8de5-453d-9584-f276f4466e5e.TestNG-tests-1(52)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "ce5877e27807fdff",
+        "status" : "broken",
+        "statusDetails" : "Failed -> addRandomMediaToPlayList()",
+        "time" : {
+          "start" : 1623187151823,
+          "stop" : 1623187157555,
+          "duration" : 5732
+        }
+      }, {
+        "uid" : "74ce1aa9bb843efb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623185553540,
+          "stop" : 1623185559614,
+          "duration" : 6074
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "aa524646d640b3b.json",
+  "parameterValues" : [ ]
+}
