@@ -27,9 +27,9 @@
     "name" : "Desktop UI Suite (2)",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
       "total" : 17
     }

@@ -1,0 +1,171 @@
+{
+  "uid" : "510a3d852d8d02e2",
+  "name" : "webEmptySearchTest",
+  "fullName" : "web.searchMediaTests.webEmptySearchTest",
+  "historyId" : "aec833bb6976b0367b2dad87ca3d0877",
+  "time" : {
+    "start" : 1623332336920,
+    "stop" : 1623332341245,
+    "duration" : 4325
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1623332336496,
+      "stop" : 1623332336917,
+      "duration" : 421
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623332336489,
+      "stop" : 1623332336493,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1623332341249,
+      "stop" : 1623332341315,
+      "duration" : 66
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623332341316,
+      "stop" : 1623332341316,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "web.searchMediaTests"
+  }, {
+    "name" : "testClass",
+    "value" : "web.searchMediaTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "webEmptySearchTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Desktop UI Suite (0)"
+  }, {
+    "name" : "suite",
+    "value" : "SearchTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "web.searchMediaTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-2bb7c0e6-6b36-416c-b664-2f6c2e09572c"
+  }, {
+    "name" : "thread",
+    "value" : "4306@travis-job-2bb7c0e6-6b36-416c-b664-2f6c2e09572c.TestNG-tests-1(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "platform",
+    "value" : "desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "26bd7e8310252a33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623252864526,
+          "stop" : 1623252866554,
+          "duration" : 2028
+        }
+      }, {
+        "uid" : "b9a88ddda5904d61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623218341198,
+          "stop" : 1623218343146,
+          "duration" : 1948
+        }
+      }, {
+        "uid" : "a6478e45828112cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623187083968,
+          "stop" : 1623187085979,
+          "duration" : 2011
+        }
+      }, {
+        "uid" : "d4897ac16f324247",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623185488449,
+          "stop" : 1623185490108,
+          "duration" : 1659
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "510a3d852d8d02e2.json",
+  "parameterValues" : [ "desktop" ]
+}

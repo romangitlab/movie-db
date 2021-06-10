@@ -4,11 +4,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "279db93ee599a404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332376753,
+        "stop" : 1623332380708,
+        "duration" : 3955
+      }
+    }, {
       "uid" : "105e61375f99cb80",
       "status" : "passed",
       "time" : {
@@ -48,11 +56,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "f1f6a2c1cdb68e5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332346489,
+        "stop" : 1623332351077,
+        "duration" : 4588
+      }
+    }, {
       "uid" : "c51a9f2e874ce5f1",
       "status" : "passed",
       "time" : {
@@ -91,11 +107,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "14ca751801f8ed33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332436997,
+        "stop" : 1623332437131,
+        "duration" : 134
+      }
+    }, {
       "uid" : "aa431219e33a87ee",
       "status" : "passed",
       "time" : {
@@ -134,11 +158,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "98c0dcde044ae93d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332380726,
+        "stop" : 1623332384350,
+        "duration" : 3624
+      }
+    }, {
       "uid" : "6c5cc4721810fc30",
       "status" : "passed",
       "time" : {
@@ -175,13 +207,22 @@
   "9d52809ddda85c6b407c25d01ba4d18e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "ca7562e0ef4b0d08",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-2bb7c0e6-6b36-416c-b664-2f6c2e09572c', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 8b1b3451f4345dc0adfee162d2d22c3a\n*** Element info: {Using=css selector, value=p>a.accept}",
+      "time" : {
+        "start" : 1623332331062,
+        "stop" : 1623332335199,
+        "duration" : 4137
+      }
+    }, {
       "uid" : "bb037d9fd8b444d6",
       "status" : "broken",
       "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-bd657186-a92b-408a-a47e-f2aba195e882', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 740e8ebcc2a538234ded10ac76d119fe\n*** Element info: {Using=css selector, value=p>a.accept}",
@@ -224,11 +265,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "dc9b7ddbf2ea0083",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332423913,
+        "stop" : 1623332424396,
+        "duration" : 483
+      }
+    }, {
       "uid" : "8a5b78edf98bc2d",
       "status" : "passed",
       "time" : {
@@ -267,11 +316,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "3b99852893566301",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332417489,
+        "stop" : 1623332423707,
+        "duration" : 6218
+      }
+    }, {
       "uid" : "6433f5c38891de6f",
       "status" : "broken",
       "statusDetails" : "Failed -> addRandomMediaToPlayList()",
@@ -312,11 +369,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "c719ab80081ef21d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332414348,
+        "stop" : 1623332417466,
+        "duration" : 3118
+      }
+    }, {
       "uid" : "e75101a56d5d0b79",
       "status" : "passed",
       "time" : {
@@ -355,13 +420,22 @@
   "80c046c60bb4a952af27d9e72e4abd2b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "bd1866f0828a8cfc",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-2bb7c0e6-6b36-416c-b664-2f6c2e09572c', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: dbdd2c13bbc7f475b95d246d8679b1e9\n*** Element info: {Using=css selector, value=p>a.accept}",
+      "time" : {
+        "start" : 1623332351574,
+        "stop" : 1623332355552,
+        "duration" : 3978
+      }
+    }, {
       "uid" : "267e06b0987766a3",
       "status" : "broken",
       "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-bd657186-a92b-408a-a47e-f2aba195e882', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: b99fd98986fc6abb21e3eac389753fef\n*** Element info: {Using=css selector, value=p>a.accept}",
@@ -404,11 +478,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "9afda42d5b5568f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332425322,
+        "stop" : 1623332428707,
+        "duration" : 3385
+      }
+    }, {
       "uid" : "3ec439a9d84a0078",
       "status" : "passed",
       "time" : {
@@ -447,11 +529,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "d6aad3a0f09a8a09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332363010,
+        "stop" : 1623332367021,
+        "duration" : 4011
+      }
+    }, {
       "uid" : "470d87dc6754cbff",
       "status" : "passed",
       "time" : {
@@ -490,11 +580,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "dbda3922aeed0f18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332424400,
+        "stop" : 1623332425315,
+        "duration" : 915
+      }
+    }, {
       "uid" : "aa5a538a88c69775",
       "status" : "passed",
       "time" : {
@@ -533,11 +631,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "869138dc8069c34a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332372170,
+        "stop" : 1623332376591,
+        "duration" : 4421
+      }
+    }, {
       "uid" : "1e83eb77cf9a779",
       "status" : "passed",
       "time" : {
@@ -576,11 +682,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "202c9a617ce1cc46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332411256,
+        "stop" : 1623332414337,
+        "duration" : 3081
+      }
+    }, {
       "uid" : "8194c23cdb64155c",
       "status" : "passed",
       "time" : {
@@ -619,11 +733,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "c88be14c37107681",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332367405,
+        "stop" : 1623332371748,
+        "duration" : 4343
+      }
+    }, {
       "uid" : "7c2dd4c586a19db1",
       "status" : "passed",
       "time" : {
@@ -662,11 +784,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "ba8a16a6bc6e28b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332436869,
+        "stop" : 1623332436991,
+        "duration" : 122
+      }
+    }, {
       "uid" : "3c52f630c6d17461",
       "status" : "passed",
       "time" : {
@@ -705,11 +835,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "79cb797eb1dc7f89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332436729,
+        "stop" : 1623332436859,
+        "duration" : 130
+      }
+    }, {
       "uid" : "d89b0c50b2682507",
       "status" : "passed",
       "time" : {
@@ -746,13 +884,22 @@
   "a1f84c60105e69910ee89f841222aedd" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "c58d6a1c7247a276",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-2bb7c0e6-6b36-416c-b664-2f6c2e09572c', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 145151d9d1249d10e6d2aba7256365e1\n*** Element info: {Using=css selector, value=p>a.accept}",
+      "time" : {
+        "start" : 1623332307503,
+        "stop" : 1623332313065,
+        "duration" : 5562
+      }
+    }, {
       "uid" : "2c111743e8bc7925",
       "status" : "broken",
       "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-bd657186-a92b-408a-a47e-f2aba195e882', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 61cff7b22807695321c6b2b4be99985c\n*** Element info: {Using=css selector, value=p>a.accept}",
@@ -795,11 +942,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "a398fecc20bd2779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332341648,
+        "stop" : 1623332346103,
+        "duration" : 4455
+      }
+    }, {
       "uid" : "d3de6b833c042b19",
       "status" : "passed",
       "time" : {
@@ -838,11 +993,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "e07e87d45c15a9e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332393209,
+        "stop" : 1623332396817,
+        "duration" : 3608
+      }
+    }, {
       "uid" : "f01ed14c097003a7",
       "status" : "passed",
       "time" : {
@@ -881,11 +1044,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "a4441fb65e550a8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332405232,
+        "stop" : 1623332408659,
+        "duration" : 3427
+      }
+    }, {
       "uid" : "f51841bccbd16cc8",
       "status" : "passed",
       "time" : {
@@ -922,13 +1093,22 @@
   "e4f8e544814a2e638496ad4275ba19c8" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "8679dde9a21e0d62",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-2bb7c0e6-6b36-416c-b664-2f6c2e09572c', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 7aaca1ee6f1862fa61c9cea098ee7193\n*** Element info: {Using=css selector, value=p>a.accept}",
+      "time" : {
+        "start" : 1623332357253,
+        "stop" : 1623332361395,
+        "duration" : 4142
+      }
+    }, {
       "uid" : "a372364575265234",
       "status" : "broken",
       "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-bd657186-a92b-408a-a47e-f2aba195e882', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 7392a3a06fed0ed786328c54c0f4a3c5\n*** Element info: {Using=css selector, value=p>a.accept}",
@@ -971,11 +1151,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "510a3d852d8d02e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332336920,
+        "stop" : 1623332341245,
+        "duration" : 4325
+      }
+    }, {
       "uid" : "26bd7e8310252a33",
       "status" : "passed",
       "time" : {
@@ -1014,11 +1202,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "2dd527aa5327336a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332401781,
+        "stop" : 1623332405224,
+        "duration" : 3443
+      }
+    }, {
       "uid" : "de01d29e4a225cf3",
       "status" : "passed",
       "time" : {
@@ -1057,11 +1253,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "9fb3b0e1b21ab299",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332423721,
+        "stop" : 1623332423908,
+        "duration" : 187
+      }
+    }, {
       "uid" : "84cd364455f9bbf",
       "status" : "passed",
       "time" : {
@@ -1100,11 +1304,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "2cf2b305281ca3c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332389643,
+        "stop" : 1623332393205,
+        "duration" : 3562
+      }
+    }, {
       "uid" : "19faa1b480672840",
       "status" : "passed",
       "time" : {
@@ -1144,11 +1356,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "348ec52e017ff0d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623332431639,
+        "stop" : 1623332434833,
+        "duration" : 3194
+      }
+    }, {
       "uid" : "b67b0645a22c40a1",
       "status" : "passed",
       "time" : {

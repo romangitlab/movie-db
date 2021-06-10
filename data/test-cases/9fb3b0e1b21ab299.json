@@ -1,0 +1,152 @@
+{
+  "uid" : "9fb3b0e1b21ab299",
+  "name" : "apiCreatePlayListTest",
+  "fullName" : "api.CheckMediaListsTests.apiCreatePlayListTest",
+  "historyId" : "5be4fcb03cc601b741786815d21a682b",
+  "time" : {
+    "start" : 1623332423721,
+    "stop" : 1623332423908,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623332423711,
+      "stop" : 1623332423712,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623332434837,
+      "stop" : 1623332436717,
+      "duration" : 1880
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623332423909,
+      "stop" : 1623332423910,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiCreatePlayListTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Desktop UI Suite (2)"
+  }, {
+    "name" : "suite",
+    "value" : "Check Media Lists Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-2bb7c0e6-6b36-416c-b664-2f6c2e09572c"
+  }, {
+    "name" : "thread",
+    "value" : "4306@travis-job-2bb7c0e6-6b36-416c-b664-2f6c2e09572c.TestNG-tests-1(83)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "84cd364455f9bbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623252938936,
+          "stop" : 1623252939135,
+          "duration" : 199
+        }
+      }, {
+        "uid" : "7772b995153a2a76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623218414510,
+          "stop" : 1623218414726,
+          "duration" : 216
+        }
+      }, {
+        "uid" : "2ff3e5dab9170b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623187157560,
+          "stop" : 1623187157732,
+          "duration" : 172
+        }
+      }, {
+        "uid" : "f459b3e6537dad42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623185559621,
+          "stop" : 1623185559787,
+          "duration" : 166
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9fb3b0e1b21ab299.json",
+  "parameterValues" : [ ]
+}
