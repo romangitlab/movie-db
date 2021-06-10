@@ -1,7 +1,6 @@
 package web;
 
 import core.web.TestBase;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.web.Login.LoginPage;
 import pages.web.Media.MediaPage;
@@ -12,13 +11,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class searchMediaTests extends TestBase {
 
-    @BeforeTest()
-    public void beforeTest() {
-        new LoginPage().login();
-    }
-
     @Test
     public void webSearchMovieTest() {
+        new LoginPage().login();
         MediaPage mediaPage = new MediaPage("movie");
         SearchPage searchPage = mediaPage.search("Joker", "movie");
 
@@ -30,6 +25,7 @@ public class searchMediaTests extends TestBase {
 
     @Test
     public void webSearchTvShowTest() {
+        new LoginPage().login();
         MediaPage mediaPage = new MediaPage("tv");
         SearchPage searchPage = mediaPage.search("Arrow", "tv");
 
@@ -41,6 +37,7 @@ public class searchMediaTests extends TestBase {
 
     @Test
     public void webEmptySearchTest() {
+        new LoginPage().login();
         MediaPage mediaPage = new MediaPage("movie");
         SearchPage searchPage = mediaPage.search("@!@!@!");
 

@@ -2,20 +2,22 @@ package core.web;
 
 import core.Logging;
 import org.openqa.selenium.remote.BrowserType;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+import java.lang.reflect.Method;
 
 public class TestBase extends Logging {
 
     WebManager manager = new WebManager(System.getProperty("browser", BrowserType.CHROME));
 
-    @BeforeTest(alwaysRun = true)
-    public void baseTest() {
+    @BeforeMethod
+    public void setUp(Method method) {
         manager.init();
     }
 
-    @AfterTest(alwaysRun = true)
-    public void afterTest() {
+    @AfterMethod(alwaysRun = true)
+    public void afterMethod() {
         manager.stop();
     }
 }

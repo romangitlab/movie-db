@@ -40,9 +40,10 @@ public class WebManager {
         if (isMW()) {
             wd = new ChromeDriver(this.getMWChromeOptions());
         } else if (browser.equals(BrowserType.FIREFOX)) {
+            System.setProperty("webdriver.chrome.driver", "./drivers/geckodriver-windows-64bit");
             wd = new FirefoxDriver();
         } else if (browser.equals(BrowserType.CHROME)) {
-            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver-windows-32bit");
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--lang=en");
