@@ -1,8 +1,8 @@
 {
   "total" : 3,
   "items" : [ {
-    "uid" : "bed44173f16c63305aff80bb7bb79bcf",
-    "name" : "Desktop UI Suite (0)",
+    "uid" : "08ad70556359b74da6812d96512f8b1f",
+    "name" : "Mobile UI Suite",
     "statistic" : {
       "failed" : 0,
       "broken" : 2,
@@ -12,8 +12,8 @@
       "total" : 5
     }
   }, {
-    "uid" : "4ab34282fddacfc6e16c1f339c86f849",
-    "name" : "Desktop UI Suite (1)",
+    "uid" : "2cd3b72d02a1330bb8e525728d1bce2c",
+    "name" : "Desktop UI Suite",
     "statistic" : {
       "failed" : 0,
       "broken" : 2,
@@ -23,8 +23,8 @@
       "total" : 5
     }
   }, {
-    "uid" : "59ac5dbd096b26b81655333ef6a6b89a",
-    "name" : "Desktop UI Suite (2)",
+    "uid" : "b4bbb500a93f01b8e625a12c443cf9dd",
+    "name" : "API Suite",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -1,0 +1,179 @@
+{
+  "uid" : "cc3ec45a17a5c82a",
+  "name" : "webSearchTvShowTest",
+  "fullName" : "web.searchMediaTests.webSearchTvShowTest",
+  "historyId" : "f07d05bd0d3814c3da0d161ff26608cc",
+  "time" : {
+    "start" : 1623359242862,
+    "stop" : 1623359247240,
+    "duration" : 4378
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623359242563,
+      "stop" : 1623359242575,
+      "duration" : 12
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1623359242577,
+      "stop" : 1623359242859,
+      "duration" : 282
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1623359247315,
+      "stop" : 1623359247381,
+      "duration" : 66
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623359247382,
+      "stop" : 1623359247385,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "web.searchMediaTests"
+  }, {
+    "name" : "testClass",
+    "value" : "web.searchMediaTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "webSearchTvShowTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Desktop UI Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SearchTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "web.searchMediaTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-b1149d36-6b90-4223-8036-a88cfa52aec9"
+  }, {
+    "name" : "thread",
+    "value" : "4296@travis-job-b1149d36-6b90-4223-8036-a88cfa52aec9.TestNG-tests-1(60)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "platform",
+    "value" : "desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "f1f6a2c1cdb68e5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623332346489,
+          "stop" : 1623332351077,
+          "duration" : 4588
+        }
+      }, {
+        "uid" : "c51a9f2e874ce5f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623252868627,
+          "stop" : 1623252870870,
+          "duration" : 2243
+        }
+      }, {
+        "uid" : "fb7c82c3be611b36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623218345124,
+          "stop" : 1623218347051,
+          "duration" : 1927
+        }
+      }, {
+        "uid" : "1c73ffd86ca28332",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623187088036,
+          "stop" : 1623187090152,
+          "duration" : 2116
+        }
+      }, {
+        "uid" : "bfab94f962b3710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623185492048,
+          "stop" : 1623185493810,
+          "duration" : 1762
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cc3ec45a17a5c82a.json",
+  "parameterValues" : [ "desktop" ]
+}
