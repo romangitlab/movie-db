@@ -1,7 +1,7 @@
 #!/bin/sh
 
 mkdir target/github-pages
-git clone --single-branch --branch gh-pages https://romangitlab:$GITHUB_TOKEN@github.com/romangitlab/movie-db target/github-pages
+git clone --single-branch --branch gh-pages https://romangitlab:$GITHUB_TOKEN@github.com/romangitlab/movie-db.git target/github-pages
 cp -R target/github-pages/history target/allure-results/
 mvn allure:report
 cp -R target/site/allure-maven-plugin/* target/github-pages

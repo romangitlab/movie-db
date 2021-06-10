@@ -5,14 +5,12 @@ import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import java.lang.reflect.Method;
-
 public class TestBase extends Logging {
 
     WebManager manager = new WebManager(System.getProperty("browser", BrowserType.CHROME));
 
     @BeforeMethod
-    public void setUp(Method method) {
+    public void setUp() {
         manager.init();
     }
 

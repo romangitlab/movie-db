@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Desktop UI Suite" parallel="tests" thread-count="1">
     <parameter name="platform" value="desktop"/>
+    <listeners>
+        <listener class-name="testng.AnnotationTransformer"/>
+        <listener class-name="testng.TestListener"/>
+    </listeners>
 
     <test name="MoviesTests">
         <classes>

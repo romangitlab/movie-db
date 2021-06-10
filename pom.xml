@@ -32,7 +32,6 @@
                 </configuration>
             </plugin>
 
-
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
@@ -66,15 +65,6 @@
                     </execution>
                 </executions>
             </plugin>
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-surefire-plugin</artifactId>-->
-<!--                <version>3.0.0-M3</version>-->
-<!--                <configuration>-->
-<!--                    <suiteXmlFiles>src/test/suites/allTest.xml</suiteXmlFiles>-->
-<!--                    <testFailureIgnore>true</testFailureIgnore>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -97,6 +87,7 @@
             </plugin>
         </plugins>
     </build>
+
     <dependencies>
         <dependency>
             <groupId>io.qameta.allure</groupId>
@@ -111,45 +102,45 @@
             <version>4.4.3</version>
             <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
             <version>1.18.8</version>
         </dependency>
+
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>
             <version>3.141.59</version>
-            <scope>test</scope>
+            <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
             <version>3.4.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.14.3</version>
-            <scope>test</scope>
-        </dependency>
+
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.14.3</version>
             <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>7.0.0</version>
         </dependency>
+
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>4.4.0</version>
-            <scope>test</scope>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
@@ -158,31 +149,13 @@
             <version>4.12</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>4.0.0-alpha-5</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.14.3</version>
-            <scope>compile</scope>
-        </dependency>
+
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.2.3</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured</artifactId>
-            <version>4.4.0</version>
-            <scope>compile</scope>
-        </dependency>
-
     </dependencies>
 
 </project>

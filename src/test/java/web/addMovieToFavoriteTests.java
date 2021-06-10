@@ -6,6 +6,7 @@ import constants.Page;
 import core.web.TestBase;
 import model.Media;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.web.Login.LoginPage;
 import pages.web.Media.MediaItemPage;
@@ -19,6 +20,13 @@ public class addMovieToFavoriteTests extends TestBase {
 
     int amountBefore = 0;
     Media mediaDataBefore = new Media();
+
+    @BeforeTest()
+    public void beforeTest() {
+        if(MediaApi.getMediaFrom(MediaType.MOVIE, Page.FAVORITE).size() != 0){
+            MediaApi.removeAllMediaFrom(MediaType.MOVIE, Page.FAVORITE);
+        }
+    }
 
     @AfterTest()
     public void afterTest() {
