@@ -4,7 +4,6 @@
 [![Build Status](https://api.travis-ci.org/romangitlab/movie-db.svg?branch=master)](https://travis-ci.org/github/romangitlab/movie-db)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=romangitlab_movie-db&metric=alert_status)](https://sonarcloud.io/dashboard?id=romangitlab_movie-db)
 [![Allure Report](https://img.shields.io/badge/Allure%20Report-2.10.0-orange.svg)](https://romangitlab.github.io/movie-db/)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4970/badge)](https://bestpractices.coreinfrastructure.org/projects/4970)
 ![!JAVA](https://img.shields.io/badge/language-java-critical?style=flat-square)
 
 ### Following tools were used:
