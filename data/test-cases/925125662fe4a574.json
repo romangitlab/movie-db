@@ -1,0 +1,169 @@
+{
+  "uid" : "925125662fe4a574",
+  "name" : "apiAddingTvShowsToFavoriteTest",
+  "fullName" : "api.AddMediaToFavoriteTests.apiAddingTvShowsToFavoriteTest",
+  "historyId" : "ff5b07c8994df83637b88e272d8518d0",
+  "time" : {
+    "start" : 1623392104014,
+    "stop" : 1623392107465,
+    "duration" : 3451
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623392104006,
+      "stop" : 1623392104011,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623392107471,
+      "stop" : 1623392107475,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623392107478,
+      "stop" : 1623392112345,
+      "duration" : 4867
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.AddMediaToFavoriteTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.AddMediaToFavoriteTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiAddingTvShowsToFavoriteTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Add Media To Favorite Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.AddMediaToFavoriteTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-17bbfd13-8210-4336-abe3-0468705c4a9d"
+  }, {
+    "name" : "thread",
+    "value" : "4306@travis-job-17bbfd13-8210-4336-abe3-0468705c4a9d.TestNG-tests-1(59)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f4893e973920caf8",
+      "status" : "skipped",
+      "statusDetails" : "\nExpected: <[MediaData(id=91557, title=null, name=Ragnarok, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/xUtOM1QO4r8w8yeE00QvBdq58N5.jpg, created_by=null, items=null, popularity=1226.233, vote_count=461, video=null, media_type=null, adult=null, backdrop_path=/wu444tM9YBllq9UcBv5TeidO3j3.jpg, original_language=no, original_title=null, vote_average=8, overview=A small Norwegian town experiencing warm winters and violent downpours seems to be headed for another Ragnarök -- unless someone intervenes in time., genre_ids=[18, 10765, 9648], release_date=null, response=null)]>\n     but: was <[MediaData(id=91557, title=null, name=Ragnarok, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/xUtOM1QO4r8w8yeE00QvBdq58N5.jpg, created_by=null, items=null, popularity=1226.233, vote_count=461, video=null, media_type=null, adult=null, backdrop_path=/wu444tM9YBllq9UcBv5TeidO3j3.jpg, original_language=no, original_title=null, vote_average=8.0, overview=A small Norwegian town experiencing warm winters and violent downpours seems to be headed for another Ragnarök -- unless someone intervenes in time., genre_ids=[18, 10765, 9648], release_date=null, response=null)]>",
+      "time" : {
+        "start" : 1623392100474,
+        "stop" : 1623392103987,
+        "duration" : 3513
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "b77868b246f4ea1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623391610530,
+          "stop" : 1623391614141,
+          "duration" : 3611
+        }
+      }, {
+        "uid" : "d1144eb7ae9a420d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623390256011,
+          "stop" : 1623390259558,
+          "duration" : 3547
+        }
+      }, {
+        "uid" : "14ee529660c461d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623359981578,
+          "stop" : 1623359985537,
+          "duration" : 3959
+        }
+      }, {
+        "uid" : "ee098b55925f6f13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623359251182,
+          "stop" : 1623359255158,
+          "duration" : 3976
+        }
+      }, {
+        "uid" : "98c0dcde044ae93d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623332380726,
+          "stop" : 1623332384350,
+          "duration" : 3624
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "925125662fe4a574.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,109 @@
+{
+  "uid" : "f4893e973920caf8",
+  "name" : "apiAddingTvShowsToFavoriteTest",
+  "fullName" : "api.AddMediaToFavoriteTests.apiAddingTvShowsToFavoriteTest",
+  "historyId" : "ff5b07c8994df83637b88e272d8518d0",
+  "time" : {
+    "start" : 1623392100474,
+    "stop" : 1623392103987,
+    "duration" : 3513
+  },
+  "status" : "skipped",
+  "statusMessage" : "\nExpected: <[MediaData(id=91557, title=null, name=Ragnarok, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/xUtOM1QO4r8w8yeE00QvBdq58N5.jpg, created_by=null, items=null, popularity=1226.233, vote_count=461, video=null, media_type=null, adult=null, backdrop_path=/wu444tM9YBllq9UcBv5TeidO3j3.jpg, original_language=no, original_title=null, vote_average=8, overview=A small Norwegian town experiencing warm winters and violent downpours seems to be headed for another Ragnarök -- unless someone intervenes in time., genre_ids=[18, 10765, 9648], release_date=null, response=null)]>\n     but: was <[MediaData(id=91557, title=null, name=Ragnarok, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/xUtOM1QO4r8w8yeE00QvBdq58N5.jpg, created_by=null, items=null, popularity=1226.233, vote_count=461, video=null, media_type=null, adult=null, backdrop_path=/wu444tM9YBllq9UcBv5TeidO3j3.jpg, original_language=no, original_title=null, vote_average=8.0, overview=A small Norwegian town experiencing warm winters and violent downpours seems to be headed for another Ragnarök -- unless someone intervenes in time., genre_ids=[18, 10765, 9648], release_date=null, response=null)]>",
+  "statusTrace" : "java.lang.AssertionError: \nExpected: <[MediaData(id=91557, title=null, name=Ragnarok, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/xUtOM1QO4r8w8yeE00QvBdq58N5.jpg, created_by=null, items=null, popularity=1226.233, vote_count=461, video=null, media_type=null, adult=null, backdrop_path=/wu444tM9YBllq9UcBv5TeidO3j3.jpg, original_language=no, original_title=null, vote_average=8, overview=A small Norwegian town experiencing warm winters and violent downpours seems to be headed for another Ragnarök -- unless someone intervenes in time., genre_ids=[18, 10765, 9648], release_date=null, response=null)]>\n     but: was <[MediaData(id=91557, title=null, name=Ragnarok, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/xUtOM1QO4r8w8yeE00QvBdq58N5.jpg, created_by=null, items=null, popularity=1226.233, vote_count=461, video=null, media_type=null, adult=null, backdrop_path=/wu444tM9YBllq9UcBv5TeidO3j3.jpg, original_language=no, original_title=null, vote_average=8.0, overview=A small Norwegian town experiencing warm winters and violent downpours seems to be headed for another Ragnarök -- unless someone intervenes in time., genre_ids=[18, 10765, 9648], release_date=null, response=null)]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat api.AddMediaToFavoriteTests.apiAddingTvShowsToFavoriteTest(AddMediaToFavoriteTests.java:44)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:40)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)\n\tat org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:834)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623392100471,
+      "stop" : 1623392100471,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623392103997,
+      "stop" : 1623392104003,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623392107478,
+      "stop" : 1623392112345,
+      "duration" : 4867
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.AddMediaToFavoriteTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.AddMediaToFavoriteTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiAddingTvShowsToFavoriteTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Add Media To Favorite Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.AddMediaToFavoriteTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-17bbfd13-8210-4336-abe3-0468705c4a9d"
+  }, {
+    "name" : "thread",
+    "value" : "4306@travis-job-17bbfd13-8210-4336-abe3-0468705c4a9d.TestNG-tests-1(59)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4893e973920caf8.json",
+  "parameterValues" : [ ]
+}

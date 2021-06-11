@@ -8,13 +8,13 @@
         "name" : "web.addMovieToFavoriteTests",
         "children" : [ {
           "name" : "webAddingMovieToFavoriteTest",
-          "uid" : "88fab3f493663516",
+          "uid" : "74b4b72874e5807b",
           "parentUid" : "778387516556dbc229f47c4178a74caf",
           "status" : "passed",
           "time" : {
-            "start" : 1623391542389,
-            "stop" : 1623391547637,
-            "duration" : 5248
+            "start" : 1623392034532,
+            "stop" : 1623392039854,
+            "duration" : 5322
           },
           "flaky" : false,
           "parameters" : [ "mobile" ]
@@ -28,13 +28,13 @@
         "name" : "web.addTvShowToFavoriteTests",
         "children" : [ {
           "name" : "webAddingTvShowToFavoriteTest",
-          "uid" : "b0e85a8c863bc282",
+          "uid" : "debb9e46ba1d1263",
           "parentUid" : "d4691f77481d7bf1def706a28783f60d",
           "status" : "passed",
           "time" : {
-            "start" : 1623391551848,
-            "stop" : 1623391557302,
-            "duration" : 5454
+            "start" : 1623392044085,
+            "stop" : 1623392049411,
+            "duration" : 5326
           },
           "flaky" : false,
           "parameters" : [ "mobile" ]
@@ -48,37 +48,37 @@
         "name" : "web.searchMediaTests",
         "children" : [ {
           "name" : "webEmptySearchTest",
-          "uid" : "94766e8317ad4bea",
+          "uid" : "d003a3bb45c4b7de",
           "parentUid" : "6cedb9a56542e520dabccfc6802c74c5",
           "status" : "passed",
           "time" : {
-            "start" : 1623391560342,
-            "stop" : 1623391564849,
-            "duration" : 4507
+            "start" : 1623392052502,
+            "stop" : 1623392056582,
+            "duration" : 4080
           },
           "flaky" : false,
           "parameters" : [ "mobile" ]
         }, {
           "name" : "webSearchMovieTest",
-          "uid" : "7b92e4026ddccfa2",
+          "uid" : "a309eb4abe98eee0",
           "parentUid" : "6cedb9a56542e520dabccfc6802c74c5",
           "status" : "passed",
           "time" : {
-            "start" : 1623391565402,
-            "stop" : 1623391570102,
-            "duration" : 4700
+            "start" : 1623392056902,
+            "stop" : 1623392061487,
+            "duration" : 4585
           },
           "flaky" : false,
           "parameters" : [ "mobile" ]
         }, {
           "name" : "webSearchTvShowTest",
-          "uid" : "43757b4e3b29575e",
+          "uid" : "ef2a49e779243368",
           "parentUid" : "6cedb9a56542e520dabccfc6802c74c5",
           "status" : "passed",
           "time" : {
-            "start" : 1623391570659,
-            "stop" : 1623391575248,
-            "duration" : 4589
+            "start" : 1623392061829,
+            "stop" : 1623392066430,
+            "duration" : 4601
           },
           "flaky" : false,
           "parameters" : [ "mobile" ]
@@ -96,13 +96,13 @@
         "name" : "web.addMovieToFavoriteTests",
         "children" : [ {
           "name" : "webAddingMovieToFavoriteTest",
-          "uid" : "65c43d57a2bb447d",
+          "uid" : "ad0f0923db188109",
           "parentUid" : "e49a08bb411978bb91dc1e56a609f8a1",
           "status" : "passed",
           "time" : {
-            "start" : 1623391576816,
-            "stop" : 1623391581482,
-            "duration" : 4666
+            "start" : 1623392067980,
+            "stop" : 1623392072597,
+            "duration" : 4617
           },
           "flaky" : false,
           "parameters" : [ "desktop" ]
@@ -116,13 +116,13 @@
         "name" : "web.addTvShowToFavoriteTests",
         "children" : [ {
           "name" : "webAddingTvShowToFavoriteTest",
-          "uid" : "8c3f515e0c843727",
+          "uid" : "de5c6c853ba0e181",
           "parentUid" : "a10867818af174ccef7ba4927af0a992",
           "status" : "passed",
           "time" : {
-            "start" : 1623391585470,
-            "stop" : 1623391590151,
-            "duration" : 4681
+            "start" : 1623392076431,
+            "stop" : 1623392081005,
+            "duration" : 4574
           },
           "flaky" : false,
           "parameters" : [ "desktop" ]
@@ -136,37 +136,37 @@
         "name" : "web.searchMediaTests",
         "children" : [ {
           "name" : "webEmptySearchTest",
-          "uid" : "3c3645060e7f833b",
+          "uid" : "f51f3fc44c02795d",
           "parentUid" : "9f04a63a8b1674330759a27bcdfe651f",
           "status" : "passed",
           "time" : {
-            "start" : 1623391593261,
-            "stop" : 1623391597216,
-            "duration" : 3955
+            "start" : 1623392084171,
+            "stop" : 1623392087986,
+            "duration" : 3815
           },
           "flaky" : false,
           "parameters" : [ "desktop" ]
         }, {
           "name" : "webSearchMovieTest",
-          "uid" : "1d555ff9db1e9b19",
+          "uid" : "76ac35a1e7c2f32e",
           "parentUid" : "9f04a63a8b1674330759a27bcdfe651f",
           "status" : "passed",
           "time" : {
-            "start" : 1623391597619,
-            "stop" : 1623391601786,
-            "duration" : 4167
+            "start" : 1623392088442,
+            "stop" : 1623392092568,
+            "duration" : 4126
           },
           "flaky" : false,
           "parameters" : [ "desktop" ]
         }, {
           "name" : "webSearchTvShowTest",
-          "uid" : "9bdc5a2fcbd5d125",
+          "uid" : "dee781797bbce320",
           "parentUid" : "9f04a63a8b1674330759a27bcdfe651f",
           "status" : "passed",
           "time" : {
-            "start" : 1623391602184,
-            "stop" : 1623391606850,
-            "duration" : 4666
+            "start" : 1623392092941,
+            "stop" : 1623392096923,
+            "duration" : 3982
           },
           "flaky" : false,
           "parameters" : [ "desktop" ]
@@ -184,25 +184,25 @@
         "name" : "api.AddMediaToFavoriteTests",
         "children" : [ {
           "name" : "apiAddingMovieToFavoriteTest",
-          "uid" : "77e1a6ec14b6e79b",
+          "uid" : "ba997e798fa2baa7",
           "parentUid" : "7023dbb3e5fc636afb9e93aa05a421af",
           "status" : "passed",
           "time" : {
-            "start" : 1623391606948,
-            "stop" : 1623391610523,
-            "duration" : 3575
+            "start" : 1623392097018,
+            "stop" : 1623392100468,
+            "duration" : 3450
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "apiAddingTvShowsToFavoriteTest",
-          "uid" : "b77868b246f4ea1d",
+          "uid" : "925125662fe4a574",
           "parentUid" : "7023dbb3e5fc636afb9e93aa05a421af",
           "status" : "passed",
           "time" : {
-            "start" : 1623391610530,
-            "stop" : 1623391614141,
-            "duration" : 3611
+            "start" : 1623392104014,
+            "stop" : 1623392107465,
+            "duration" : 3451
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -216,25 +216,25 @@
         "name" : "api.AddMediaToWatchlistTests",
         "children" : [ {
           "name" : "apiAddMovieToFavoriteTest",
-          "uid" : "fda0b84f833af1d9",
+          "uid" : "4b92d6d1439860e",
           "parentUid" : "3c7a2b0664b514e40270083ad9db1120",
           "status" : "passed",
           "time" : {
-            "start" : 1623391619059,
-            "stop" : 1623391622575,
-            "duration" : 3516
+            "start" : 1623392115849,
+            "stop" : 1623392119235,
+            "duration" : 3386
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "apiAddTvShowToFavoriteTest",
-          "uid" : "d3fd861f4af00352",
+          "uid" : "ce903ba7b7d1a122",
           "parentUid" : "3c7a2b0664b514e40270083ad9db1120",
           "status" : "passed",
           "time" : {
-            "start" : 1623391622592,
-            "stop" : 1623391626165,
-            "duration" : 3573
+            "start" : 1623392119250,
+            "stop" : 1623392122667,
+            "duration" : 3417
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -248,25 +248,25 @@
         "name" : "api.RateMediaTests",
         "children" : [ {
           "name" : "apiRateMovieTest",
-          "uid" : "8ca162083718d377",
+          "uid" : "d69481e335411d9e",
           "parentUid" : "b955b5d93f4e3faa36f874b2959c8239",
           "status" : "passed",
           "time" : {
-            "start" : 1623391630968,
-            "stop" : 1623391634319,
-            "duration" : 3351
+            "start" : 1623392127488,
+            "stop" : 1623392130784,
+            "duration" : 3296
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "apiRateTvShowTest",
-          "uid" : "3471786e97ba7fb7",
+          "uid" : "cea3ed0a77064e9",
           "parentUid" : "b955b5d93f4e3faa36f874b2959c8239",
           "status" : "passed",
           "time" : {
-            "start" : 1623391634338,
-            "stop" : 1623391637714,
-            "duration" : 3376
+            "start" : 1623392130788,
+            "stop" : 1623392134056,
+            "duration" : 3268
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -280,97 +280,97 @@
         "name" : "api.CheckMediaListsTests",
         "children" : [ {
           "name" : "apiAddMovieToPlayListTest",
-          "uid" : "bbb39278d026cdf6",
+          "uid" : "769a6ef6233b6fd1",
           "parentUid" : "19aa2f0775e58cd20dc66aa792edca47",
           "status" : "passed",
           "time" : {
-            "start" : 1623391640326,
-            "stop" : 1623391643285,
-            "duration" : 2959
+            "start" : 1623392136472,
+            "stop" : 1623392139460,
+            "duration" : 2988
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "apiAddTvShowToPlayListTest",
-          "uid" : "33f2a72bfe7b2a73",
+          "uid" : "194210456c149456",
           "parentUid" : "19aa2f0775e58cd20dc66aa792edca47",
           "status" : "passed",
           "time" : {
-            "start" : 1623391643293,
-            "stop" : 1623391646232,
-            "duration" : 2939
+            "start" : 1623392142301,
+            "stop" : 1623392145248,
+            "duration" : 2947
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "apiClearAllMediaFromListsTest",
-          "uid" : "77d51176f27103c9",
+          "uid" : "d3262eebb163e148",
           "parentUid" : "19aa2f0775e58cd20dc66aa792edca47",
           "status" : "passed",
           "time" : {
-            "start" : 1623391646238,
-            "stop" : 1623391652015,
-            "duration" : 5777
+            "start" : 1623392150738,
+            "stop" : 1623392156485,
+            "duration" : 5747
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "apiCreatePlayListTest",
-          "uid" : "91a45d8ebcbf25b0",
+          "uid" : "ab49f18187794041",
           "parentUid" : "19aa2f0775e58cd20dc66aa792edca47",
           "status" : "passed",
           "time" : {
-            "start" : 1623391652019,
-            "stop" : 1623391652151,
-            "duration" : 132
+            "start" : 1623392156495,
+            "stop" : 1623392156658,
+            "duration" : 163
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "apiDeletePlayListTest",
-          "uid" : "522e6d52621c987e",
+          "uid" : "ac08e6827f120833",
           "parentUid" : "19aa2f0775e58cd20dc66aa792edca47",
           "status" : "passed",
           "time" : {
-            "start" : 1623391652167,
-            "stop" : 1623391652540,
-            "duration" : 373
+            "start" : 1623392156664,
+            "stop" : 1623392157102,
+            "duration" : 438
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "apiGetDetailsPlayListTest",
-          "uid" : "968c63ff371f1bc1",
+          "uid" : "3521deccacd1347e",
           "parentUid" : "19aa2f0775e58cd20dc66aa792edca47",
           "status" : "passed",
           "time" : {
-            "start" : 1623391652545,
-            "stop" : 1623391653219,
-            "duration" : 674
+            "start" : 1623392157112,
+            "stop" : 1623392157741,
+            "duration" : 629
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "apiRemoveMovieFromPlayListTest",
-          "uid" : "a3ba132bb725b5c3",
+          "uid" : "e18899d4ab68dd96",
           "parentUid" : "19aa2f0775e58cd20dc66aa792edca47",
           "status" : "passed",
           "time" : {
-            "start" : 1623391653246,
-            "stop" : 1623391656267,
-            "duration" : 3021
+            "start" : 1623392157752,
+            "stop" : 1623392160800,
+            "duration" : 3048
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "apiRemoveTvShowFromPlayListTest",
-          "uid" : "aa94f2148220e088",
+          "uid" : "6893e40773785fa0",
           "parentUid" : "19aa2f0775e58cd20dc66aa792edca47",
           "status" : "passed",
           "time" : {
-            "start" : 1623391656277,
-            "stop" : 1623391659299,
-            "duration" : 3022
+            "start" : 1623392160807,
+            "stop" : 1623392163865,
+            "duration" : 3058
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -384,37 +384,37 @@
         "name" : "api.SearchTests",
         "children" : [ {
           "name" : "webEmptySearchTest",
-          "uid" : "f1b8d174cc63c66e",
+          "uid" : "c645936680279fe",
           "parentUid" : "d1cc1f4c8ec6d3f3cdf3c4e99d9083e6",
           "status" : "passed",
           "time" : {
-            "start" : 1623391660519,
-            "stop" : 1623391660616,
-            "duration" : 97
+            "start" : 1623392165394,
+            "stop" : 1623392165457,
+            "duration" : 63
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "webSearchMovieTest",
-          "uid" : "43acd955cc19761a",
+          "uid" : "a56ef9ee911dfcec",
           "parentUid" : "d1cc1f4c8ec6d3f3cdf3c4e99d9083e6",
           "status" : "passed",
           "time" : {
-            "start" : 1623391660622,
-            "stop" : 1623391660712,
-            "duration" : 90
+            "start" : 1623392165461,
+            "stop" : 1623392165523,
+            "duration" : 62
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "webSearchTvShowTest",
-          "uid" : "9db71dd55b66d5d3",
+          "uid" : "23566eed1bb682f9",
           "parentUid" : "d1cc1f4c8ec6d3f3cdf3c4e99d9083e6",
           "status" : "passed",
           "time" : {
-            "start" : 1623391660731,
-            "stop" : 1623391660832,
-            "duration" : 101
+            "start" : 1623392165529,
+            "stop" : 1623392165593,
+            "duration" : 64
           },
           "flaky" : false,
           "parameters" : [ ]
