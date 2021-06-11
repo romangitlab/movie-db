@@ -15,6 +15,6 @@ The build is built via Travis CI
 [![Build Status](https://api.travis-ci.org/romangitlab/movie-db.svg?branch=master)](https://travis-ci.org/github/romangitlab/movie-db)
 
 # Test runs in real time  
-Online reports of test runs provided by Allure
+In real reports of test runs provided by Allure
 
 [![Allure Report](https://img.shields.io/badge/Allure%20Report-2.10.0-orange.svg)](https://romangitlab.github.io/movie-db/)
