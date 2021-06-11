@@ -51,7 +51,6 @@ public class WebHelper {
     }
 
     public void scrollWebPageTo(WebElement element) {
-
             String location = element.getLocation().toString();
             JavascriptExecutor JSExecutor = (JavascriptExecutor)webDriver;
             JSExecutor.executeScript("window.scrollBy" + location + "");
