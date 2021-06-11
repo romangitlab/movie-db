@@ -1,25 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Failed -> addRandomMediaToPlayList()",
-      "children" : [ {
-        "name" : "apiAddTvShowToPlayListTest",
-        "uid" : "4613f8eb294f2d13",
-        "parentUid" : "de84a394c755be8aa1c043aa077d4c66",
-        "status" : "broken",
-        "time" : {
-          "start" : 1623409560850,
-          "stop" : 1623409563746,
-          "duration" : 2896
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "de84a394c755be8aa1c043aa077d4c66"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
