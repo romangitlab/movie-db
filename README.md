@@ -7,7 +7,7 @@
 ![!JAVA](https://img.shields.io/badge/language-java-critical?style=flat-square)
 
 ### Following tools were used:
-Maven, TestNG, Selenium WebDriver, Appium, Travis CI, Allure Reporting Framework, WebDriver Extensions, slf4j, Lombok, Maven Surefire Plugin, GitHub Pages.
+Maven, TestNG, Selenium WebDriver, Rest Assured, Appium, Travis CI, Allure Reporting Framework, WebDriver Extensions, slf4j, Lombok, Maven Surefire Plugin, GitHub Pages.
 
 # Continuous Builds
 The build is built via Travis CI
