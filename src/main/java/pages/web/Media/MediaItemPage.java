@@ -46,8 +46,7 @@ public class MediaItemPage extends WebHelper {
         logger.info("Run: addToFavorites()");
 
         acceptCookiePolicy();
-        scrollWebPageTo(webDriver.findElement(By.id("favourite")));
-        clickAtElement(By.id("favourite"));
+        clickAtElement(By.cssSelector(".add_to_account_list.favourite"));
 
         return this;
     }

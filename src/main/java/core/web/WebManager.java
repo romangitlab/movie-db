@@ -19,7 +19,6 @@ import java.util.concurrent.TimeUnit;
 
 public class WebManager {
 
-    //public static Boolean isMob;
     private String browser;
     private static WebDriver wd;
     private static Properties properties;
