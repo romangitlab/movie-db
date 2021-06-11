@@ -3,69 +3,37 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'travis-job-ebfb887d-0143-4331-8a4d-fa6152a0750a', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: f6f1902f3c423633895c9cd98cf69b54\n*** Element info: {Using=css selector, value=a.accept}",
+      "name" : "unknown error: Element <a id=\"favourite\" class=\"no_click add_to_account_list favourite\" href=\"#\">...</a> is not clickable at point (545, 23). Other element would receive the click: <span class=\"glyphicons_v2 plus white\"></span>\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'travis-job-42947101-d04d-4910-ac36-6aa6babdfe8d', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 32d5845b1f7257abbcdf147c535d6400",
       "children" : [ {
         "name" : "webAddingMovieToFavoriteTest",
-        "uid" : "e722e0a880b1e043",
-        "parentUid" : "044851fa3544a7bb195fea0d9dacf037",
+        "uid" : "3305b838c4b9cff",
+        "parentUid" : "a06a5fb30839836ac4aefa4584710534",
         "status" : "broken",
         "time" : {
-          "start" : 1623359911760,
-          "stop" : 1623359915875,
-          "duration" : 4115
-        },
-        "flaky" : false,
-        "parameters" : [ "mobile" ]
-      } ],
-      "uid" : "044851fa3544a7bb195fea0d9dacf037"
-    }, {
-      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'travis-job-ebfb887d-0143-4331-8a4d-fa6152a0750a', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 49e7467a00a4b98af5c7f626a084b859\n*** Element info: {Using=css selector, value=a.accept}",
-      "children" : [ {
-        "name" : "webAddingTvShowToFavoriteTest",
-        "uid" : "9d87bfd1cf381fd9",
-        "parentUid" : "2c9cccc45fbf62f3688fa7201da1e08c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1623359930870,
-          "stop" : 1623359935059,
-          "duration" : 4189
-        },
-        "flaky" : false,
-        "parameters" : [ "mobile" ]
-      } ],
-      "uid" : "2c9cccc45fbf62f3688fa7201da1e08c"
-    }, {
-      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.image>div>a\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'travis-job-ebfb887d-0143-4331-8a4d-fa6152a0750a', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 383d17290ecdba0b847a207aa44ea5b9\n*** Element info: {Using=css selector, value=div.image>div>a}",
-      "children" : [ {
-        "name" : "webAddingMovieToFavoriteTest",
-        "uid" : "2e7ed7a8764a54f",
-        "parentUid" : "2bdb252b2f322e57ca2934f885b4761f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1623359952748,
-          "stop" : 1623359955843,
-          "duration" : 3095
+          "start" : 1623390215493,
+          "stop" : 1623390219208,
+          "duration" : 3715
         },
         "flaky" : false,
         "parameters" : [ "desktop" ]
       } ],
-      "uid" : "2bdb252b2f322e57ca2934f885b4761f"
+      "uid" : "a06a5fb30839836ac4aefa4584710534"
     }, {
-      "name" : "unknown error: Element <a id=\"favourite\" class=\"no_click add_to_account_list favourite\" href=\"#\">...</a> is not clickable at point (545, 23). Other element would receive the click: <span class=\"glyphicons_v2 plus white\"></span>\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'travis-job-ebfb887d-0143-4331-8a4d-fa6152a0750a', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 5a22056cddc342769208b14f742a3ca8",
+      "name" : "unknown error: Element <a id=\"favourite\" class=\"no_click add_to_account_list favourite\" href=\"#\">...</a> is not clickable at point (545, 23). Other element would receive the click: <span class=\"glyphicons_v2 plus white\"></span>\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'travis-job-42947101-d04d-4910-ac36-6aa6babdfe8d', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 82995dd3d3165426433d011be41ca724",
       "children" : [ {
         "name" : "webAddingTvShowToFavoriteTest",
-        "uid" : "b3012aa3e660af97",
-        "parentUid" : "ca60de0f49fad7e6f25ef35df43efb72",
+        "uid" : "3795cb906a859779",
+        "parentUid" : "8e8541be96302401ba03c6cabc039c78",
         "status" : "broken",
         "time" : {
-          "start" : 1623359958550,
-          "stop" : 1623359962601,
-          "duration" : 4051
+          "start" : 1623390234097,
+          "stop" : 1623390237890,
+          "duration" : 3793
         },
         "flaky" : false,
         "parameters" : [ "desktop" ]
       } ],
-      "uid" : "ca60de0f49fad7e6f25ef35df43efb72"
+      "uid" : "8e8541be96302401ba03c6cabc039c78"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
