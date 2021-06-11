@@ -11,7 +11,7 @@
 Java, Maven, TestNG, Selenium WebDriver, Rest Assured, Appium, Travis CI, Allure Reporting Framework, WebDriver Extensions, Slf4j, Lombok, Maven Surefire Plugin, GitHub Pages.
 
 # Continuous Builds
-The build is built via Travis CI
+The online build is built via Travis CI
 
 [![Build Status](https://api.travis-ci.org/romangitlab/movie-db.svg?branch=master)](https://travis-ci.org/github/romangitlab/movie-db)
 
