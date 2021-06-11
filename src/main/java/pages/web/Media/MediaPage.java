@@ -1,6 +1,5 @@
 package pages.web.Media;
 
-import helpers.Helper;
 import helpers.WebHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -51,10 +50,7 @@ public class MediaPage extends WebHelper {
     public MediaItemPage openRandomMedia() {
         logger.info("Run: openRandomMedia()");
 
-        List<WebElement> medias = geMediaList();
-        WebElement media = medias.get(Helper.getRandomNumber(medias.size()));
-        scrollWebPageTo(media);
-        media.findElement(By.cssSelector("div.image>div>a")).click();
+        webDriver.findElement(By.cssSelector("div.image>div>a")).click();
 
         return new MediaItemPage();
     }
