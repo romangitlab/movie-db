@@ -1,0 +1,109 @@
+{
+  "uid" : "bcc26f15761258c4",
+  "name" : "apiAddingMovieToFavoriteTest",
+  "fullName" : "api.AddMediaToFavoriteTests.apiAddingMovieToFavoriteTest",
+  "historyId" : "a29ce870d4001c8a487d7ebd2de99410",
+  "time" : {
+    "start" : 1623394444895,
+    "stop" : 1623394448519,
+    "duration" : 3624
+  },
+  "status" : "skipped",
+  "statusMessage" : "\nExpected: <[MediaData(id=578701, title=Those Who Wish Me Dead, name=null, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/xCEg6KowNISWvMh8GvPSxtdf9TO.jpg, created_by=null, items=null, popularity=1211.91, vote_count=459, video=false, media_type=null, adult=false, backdrop_path=/ouOojiypBE6CD1aqcHPVq7cJf2R.jpg, original_language=en, original_title=Those Who Wish Me Dead, vote_average=7, overview=A young boy finds himself pursued by two assassins in the Montana wilderness with a survival expert determined to protecting him - and a forest fire threatening to consume them all., genre_ids=[53, 18, 28, 9648], release_date=2021-05-05, response=null)]>\n     but: was <[MediaData(id=578701, title=Those Who Wish Me Dead, name=null, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/xCEg6KowNISWvMh8GvPSxtdf9TO.jpg, created_by=null, items=null, popularity=1211.91, vote_count=459, video=false, media_type=null, adult=false, backdrop_path=/ouOojiypBE6CD1aqcHPVq7cJf2R.jpg, original_language=en, original_title=Those Who Wish Me Dead, vote_average=7.0, overview=A young boy finds himself pursued by two assassins in the Montana wilderness with a survival expert determined to protecting him - and a forest fire threatening to consume them all., genre_ids=[53, 18, 28, 9648], release_date=2021-05-05, response=null)]>",
+  "statusTrace" : "java.lang.AssertionError: \nExpected: <[MediaData(id=578701, title=Those Who Wish Me Dead, name=null, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/xCEg6KowNISWvMh8GvPSxtdf9TO.jpg, created_by=null, items=null, popularity=1211.91, vote_count=459, video=false, media_type=null, adult=false, backdrop_path=/ouOojiypBE6CD1aqcHPVq7cJf2R.jpg, original_language=en, original_title=Those Who Wish Me Dead, vote_average=7, overview=A young boy finds himself pursued by two assassins in the Montana wilderness with a survival expert determined to protecting him - and a forest fire threatening to consume them all., genre_ids=[53, 18, 28, 9648], release_date=2021-05-05, response=null)]>\n     but: was <[MediaData(id=578701, title=Those Who Wish Me Dead, name=null, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/xCEg6KowNISWvMh8GvPSxtdf9TO.jpg, created_by=null, items=null, popularity=1211.91, vote_count=459, video=false, media_type=null, adult=false, backdrop_path=/ouOojiypBE6CD1aqcHPVq7cJf2R.jpg, original_language=en, original_title=Those Who Wish Me Dead, vote_average=7.0, overview=A young boy finds himself pursued by two assassins in the Montana wilderness with a survival expert determined to protecting him - and a forest fire threatening to consume them all., genre_ids=[53, 18, 28, 9648], release_date=2021-05-05, response=null)]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat api.AddMediaToFavoriteTests.apiAddingMovieToFavoriteTest(AddMediaToFavoriteTests.java:34)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:40)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)\n\tat org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:834)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623394444889,
+      "stop" : 1623394444889,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623394448526,
+      "stop" : 1623394448531,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623394455644,
+      "stop" : 1623394460583,
+      "duration" : 4939
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.AddMediaToFavoriteTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.AddMediaToFavoriteTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiAddingMovieToFavoriteTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Add Media To Favorite Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.AddMediaToFavoriteTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-6ea6351a-2732-45f6-a044-3927ebe12d84"
+  }, {
+    "name" : "thread",
+    "value" : "4298@travis-job-6ea6351a-2732-45f6-a044-3927ebe12d84.TestNG-tests-1(59)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bcc26f15761258c4.json",
+  "parameterValues" : [ ]
+}
