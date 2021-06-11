@@ -1,41 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "unknown error: Element <a id=\"favourite\" class=\"no_click add_to_account_list favourite\" href=\"#\">...</a> is not clickable at point (545, 23). Other element would receive the click: <span class=\"glyphicons_v2 plus white\"></span>\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'travis-job-42947101-d04d-4910-ac36-6aa6babdfe8d', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 32d5845b1f7257abbcdf147c535d6400",
-      "children" : [ {
-        "name" : "webAddingMovieToFavoriteTest",
-        "uid" : "3305b838c4b9cff",
-        "parentUid" : "a06a5fb30839836ac4aefa4584710534",
-        "status" : "broken",
-        "time" : {
-          "start" : 1623390215493,
-          "stop" : 1623390219208,
-          "duration" : 3715
-        },
-        "flaky" : false,
-        "parameters" : [ "desktop" ]
-      } ],
-      "uid" : "a06a5fb30839836ac4aefa4584710534"
-    }, {
-      "name" : "unknown error: Element <a id=\"favourite\" class=\"no_click add_to_account_list favourite\" href=\"#\">...</a> is not clickable at point (545, 23). Other element would receive the click: <span class=\"glyphicons_v2 plus white\"></span>\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'travis-job-42947101-d04d-4910-ac36-6aa6babdfe8d', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 82995dd3d3165426433d011be41ca724",
-      "children" : [ {
-        "name" : "webAddingTvShowToFavoriteTest",
-        "uid" : "3795cb906a859779",
-        "parentUid" : "8e8541be96302401ba03c6cabc039c78",
-        "status" : "broken",
-        "time" : {
-          "start" : 1623390234097,
-          "stop" : 1623390237890,
-          "duration" : 3793
-        },
-        "flaky" : false,
-        "parameters" : [ "desktop" ]
-      } ],
-      "uid" : "8e8541be96302401ba03c6cabc039c78"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

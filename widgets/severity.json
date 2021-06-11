@@ -1,270 +1,270 @@
 [ {
-  "uid" : "2a212595e67516f3",
-  "name" : "webSearchTvShowTest",
-  "time" : {
-    "start" : 1623390315122,
-    "stop" : 1623390315216,
-    "duration" : 94
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5348ed5ba2f22174",
-  "name" : "apiGetDetailsPlayListTest",
-  "time" : {
-    "start" : 1623390306775,
-    "stop" : 1623390307349,
-    "duration" : 574
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a302bc34bc46356",
-  "name" : "apiCreatePlayListTest",
-  "time" : {
-    "start" : 1623390306270,
-    "stop" : 1623390306440,
-    "duration" : 170
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7fc1cb7a1f770515",
-  "name" : "apiRateTvShowTest",
-  "time" : {
-    "start" : 1623390279585,
-    "stop" : 1623390282953,
-    "duration" : 3368
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd248d22faa854dc",
-  "name" : "webSearchMovieTest",
-  "time" : {
-    "start" : 1623390243507,
-    "stop" : 1623390247487,
-    "duration" : 3980
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2eb1c2efe0eeb7d7",
-  "name" : "webSearchTvShowTest",
-  "time" : {
-    "start" : 1623390197496,
-    "stop" : 1623390201780,
-    "duration" : 4284
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3305b838c4b9cff",
-  "name" : "webAddingMovieToFavoriteTest",
-  "time" : {
-    "start" : 1623390215493,
-    "stop" : 1623390219208,
-    "duration" : 3715
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "966164338f0d01f9",
-  "name" : "apiAddingMovieToFavoriteTest",
-  "time" : {
-    "start" : 1623390252129,
-    "stop" : 1623390255996,
-    "duration" : 3867
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "390db6bb3599dc15",
-  "name" : "webEmptySearchTest",
-  "time" : {
-    "start" : 1623390239426,
-    "stop" : 1623390243124,
-    "duration" : 3698
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3795cb906a859779",
-  "name" : "webAddingTvShowToFavoriteTest",
-  "time" : {
-    "start" : 1623390234097,
-    "stop" : 1623390237890,
-    "duration" : 3793
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "bb39db868f37607",
-  "name" : "apiDeletePlayListTest",
-  "time" : {
-    "start" : 1623390306443,
-    "stop" : 1623390306772,
-    "duration" : 329
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "59a4cc110ec5134a",
-  "name" : "webEmptySearchTest",
-  "time" : {
-    "start" : 1623390314836,
-    "stop" : 1623390314989,
-    "duration" : 153
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4353769c18187424",
-  "name" : "webSearchMovieTest",
-  "time" : {
-    "start" : 1623390314992,
-    "stop" : 1623390315116,
-    "duration" : 124
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "971e35fa6ea6c44d",
-  "name" : "apiRateMovieTest",
-  "time" : {
-    "start" : 1623390276179,
-    "stop" : 1623390279576,
-    "duration" : 3397
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e8f44cb946ece038",
-  "name" : "webAddingMovieToFavoriteTest",
-  "time" : {
-    "start" : 1623390170553,
-    "stop" : 1623390175802,
-    "duration" : 5249
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "51b552ceffc1d427",
-  "name" : "apiClearAllMediaFromListsTest",
-  "time" : {
-    "start" : 1623390300486,
-    "stop" : 1623390306264,
-    "duration" : 5778
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "81a3105336d02767",
-  "name" : "apiAddMovieToFavoriteTest",
-  "time" : {
-    "start" : 1623390264326,
-    "stop" : 1623390267730,
-    "duration" : 3404
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4dde69e10cf7d53e",
-  "name" : "webSearchTvShowTest",
-  "time" : {
-    "start" : 1623390247952,
-    "stop" : 1623390251999,
-    "duration" : 4047
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "77dfbaa32092b615",
-  "name" : "apiAddTvShowToFavoriteTest",
-  "time" : {
-    "start" : 1623390267734,
-    "stop" : 1623390271290,
-    "duration" : 3556
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0acec2e4e1ff4f4",
-  "name" : "apiAddTvShowToPlayListTest",
-  "time" : {
-    "start" : 1623390291857,
-    "stop" : 1623390294906,
-    "duration" : 3049
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1e75913bf99e2872",
-  "name" : "webSearchMovieTest",
-  "time" : {
-    "start" : 1623390192672,
-    "stop" : 1623390197153,
-    "duration" : 4481
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dd30bd7da5c636f9",
-  "name" : "apiRemoveMovieFromPlayListTest",
-  "time" : {
-    "start" : 1623390307352,
-    "stop" : 1623390310408,
-    "duration" : 3056
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d1144eb7ae9a420d",
-  "name" : "apiAddingTvShowsToFavoriteTest",
-  "time" : {
-    "start" : 1623390256011,
-    "stop" : 1623390259558,
-    "duration" : 3547
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "196c70f52dcd5d67",
-  "name" : "webEmptySearchTest",
-  "time" : {
-    "start" : 1623390187981,
-    "stop" : 1623390192252,
-    "duration" : 4271
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3445e7b89cb1117e",
+  "uid" : "bbb39278d026cdf6",
   "name" : "apiAddMovieToPlayListTest",
   "time" : {
-    "start" : 1623390285649,
-    "stop" : 1623390288872,
-    "duration" : 3223
+    "start" : 1623391640326,
+    "stop" : 1623391643285,
+    "duration" : 2959
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6dc1194456968586",
-  "name" : "apiRemoveTvShowFromPlayListTest",
+  "uid" : "43757b4e3b29575e",
+  "name" : "webSearchTvShowTest",
   "time" : {
-    "start" : 1623390310413,
-    "stop" : 1623390313472,
-    "duration" : 3059
+    "start" : 1623391570659,
+    "stop" : 1623391575248,
+    "duration" : 4589
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e4582000ab7c8a49",
+  "uid" : "94766e8317ad4bea",
+  "name" : "webEmptySearchTest",
+  "time" : {
+    "start" : 1623391560342,
+    "stop" : 1623391564849,
+    "duration" : 4507
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c3645060e7f833b",
+  "name" : "webEmptySearchTest",
+  "time" : {
+    "start" : 1623391593261,
+    "stop" : 1623391597216,
+    "duration" : 3955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "968c63ff371f1bc1",
+  "name" : "apiGetDetailsPlayListTest",
+  "time" : {
+    "start" : 1623391652545,
+    "stop" : 1623391653219,
+    "duration" : 674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d555ff9db1e9b19",
+  "name" : "webSearchMovieTest",
+  "time" : {
+    "start" : 1623391597619,
+    "stop" : 1623391601786,
+    "duration" : 4167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3ba132bb725b5c3",
+  "name" : "apiRemoveMovieFromPlayListTest",
+  "time" : {
+    "start" : 1623391653246,
+    "stop" : 1623391656267,
+    "duration" : 3021
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77d51176f27103c9",
+  "name" : "apiClearAllMediaFromListsTest",
+  "time" : {
+    "start" : 1623391646238,
+    "stop" : 1623391652015,
+    "duration" : 5777
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65c43d57a2bb447d",
+  "name" : "webAddingMovieToFavoriteTest",
+  "time" : {
+    "start" : 1623391576816,
+    "stop" : 1623391581482,
+    "duration" : 4666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1b8d174cc63c66e",
+  "name" : "webEmptySearchTest",
+  "time" : {
+    "start" : 1623391660519,
+    "stop" : 1623391660616,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0e85a8c863bc282",
   "name" : "webAddingTvShowToFavoriteTest",
   "time" : {
-    "start" : 1623390180072,
-    "stop" : 1623390184939,
-    "duration" : 4867
+    "start" : 1623391551848,
+    "stop" : 1623391557302,
+    "duration" : 5454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b77868b246f4ea1d",
+  "name" : "apiAddingTvShowsToFavoriteTest",
+  "time" : {
+    "start" : 1623391610530,
+    "stop" : 1623391614141,
+    "duration" : 3611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c3f515e0c843727",
+  "name" : "webAddingTvShowToFavoriteTest",
+  "time" : {
+    "start" : 1623391585470,
+    "stop" : 1623391590151,
+    "duration" : 4681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b92e4026ddccfa2",
+  "name" : "webSearchMovieTest",
+  "time" : {
+    "start" : 1623391565402,
+    "stop" : 1623391570102,
+    "duration" : 4700
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3fd861f4af00352",
+  "name" : "apiAddTvShowToFavoriteTest",
+  "time" : {
+    "start" : 1623391622592,
+    "stop" : 1623391626165,
+    "duration" : 3573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3471786e97ba7fb7",
+  "name" : "apiRateTvShowTest",
+  "time" : {
+    "start" : 1623391634338,
+    "stop" : 1623391637714,
+    "duration" : 3376
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91a45d8ebcbf25b0",
+  "name" : "apiCreatePlayListTest",
+  "time" : {
+    "start" : 1623391652019,
+    "stop" : 1623391652151,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ca162083718d377",
+  "name" : "apiRateMovieTest",
+  "time" : {
+    "start" : 1623391630968,
+    "stop" : 1623391634319,
+    "duration" : 3351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fda0b84f833af1d9",
+  "name" : "apiAddMovieToFavoriteTest",
+  "time" : {
+    "start" : 1623391619059,
+    "stop" : 1623391622575,
+    "duration" : 3516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9db71dd55b66d5d3",
+  "name" : "webSearchTvShowTest",
+  "time" : {
+    "start" : 1623391660731,
+    "stop" : 1623391660832,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77e1a6ec14b6e79b",
+  "name" : "apiAddingMovieToFavoriteTest",
+  "time" : {
+    "start" : 1623391606948,
+    "stop" : 1623391610523,
+    "duration" : 3575
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bdc5a2fcbd5d125",
+  "name" : "webSearchTvShowTest",
+  "time" : {
+    "start" : 1623391602184,
+    "stop" : 1623391606850,
+    "duration" : 4666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "522e6d52621c987e",
+  "name" : "apiDeletePlayListTest",
+  "time" : {
+    "start" : 1623391652167,
+    "stop" : 1623391652540,
+    "duration" : 373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43acd955cc19761a",
+  "name" : "webSearchMovieTest",
+  "time" : {
+    "start" : 1623391660622,
+    "stop" : 1623391660712,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88fab3f493663516",
+  "name" : "webAddingMovieToFavoriteTest",
+  "time" : {
+    "start" : 1623391542389,
+    "stop" : 1623391547637,
+    "duration" : 5248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33f2a72bfe7b2a73",
+  "name" : "apiAddTvShowToPlayListTest",
+  "time" : {
+    "start" : 1623391643293,
+    "stop" : 1623391646232,
+    "duration" : 2939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa94f2148220e088",
+  "name" : "apiRemoveTvShowFromPlayListTest",
+  "time" : {
+    "start" : 1623391656277,
+    "stop" : 1623391659299,
+    "duration" : 3022
   },
   "status" : "passed",
   "severity" : "normal"

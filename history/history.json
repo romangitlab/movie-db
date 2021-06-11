@@ -4,11 +4,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "77e1a6ec14b6e79b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391606948,
+        "stop" : 1623391610523,
+        "duration" : 3575
+      }
+    }, {
       "uid" : "966164338f0d01f9",
       "status" : "passed",
       "time" : {
@@ -40,14 +48,6 @@
         "stop" : 1623332380708,
         "duration" : 3955
       }
-    }, {
-      "uid" : "105e61375f99cb80",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252892202,
-        "stop" : 1623252896192,
-        "duration" : 3990
-      }
     } ]
   },
   "f07d05bd0d3814c3da0d161ff26608cc" : {
@@ -55,11 +55,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "9bdc5a2fcbd5d125",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391602184,
+        "stop" : 1623391606850,
+        "duration" : 4666
+      }
+    }, {
       "uid" : "4dde69e10cf7d53e",
       "status" : "passed",
       "time" : {
@@ -91,14 +99,6 @@
         "stop" : 1623332351077,
         "duration" : 4588
       }
-    }, {
-      "uid" : "c51a9f2e874ce5f1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252868627,
-        "stop" : 1623252870870,
-        "duration" : 2243
-      }
     } ]
   },
   "5af628868394eac6d08262c760f814f1" : {
@@ -106,11 +106,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "9db71dd55b66d5d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391660731,
+        "stop" : 1623391660832,
+        "duration" : 101
+      }
+    }, {
       "uid" : "2a212595e67516f3",
       "status" : "passed",
       "time" : {
@@ -142,14 +150,6 @@
         "stop" : 1623332437131,
         "duration" : 134
       }
-    }, {
-      "uid" : "aa431219e33a87ee",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252949045,
-        "stop" : 1623252949169,
-        "duration" : 124
-      }
     } ]
   },
   "ff5b07c8994df83637b88e272d8518d0" : {
@@ -157,11 +157,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "b77868b246f4ea1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391610530,
+        "stop" : 1623391614141,
+        "duration" : 3611
+      }
+    }, {
       "uid" : "d1144eb7ae9a420d",
       "status" : "passed",
       "time" : {
@@ -193,14 +201,6 @@
         "stop" : 1623332384350,
         "duration" : 3624
       }
-    }, {
-      "uid" : "6c5cc4721810fc30",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252896212,
-        "stop" : 1623252899895,
-        "duration" : 3683
-      }
     } ]
   },
   "9d52809ddda85c6b407c25d01ba4d18e" : {
@@ -208,11 +208,19 @@
       "failed" : 0,
       "broken" : 8,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "8c3f515e0c843727",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391585470,
+        "stop" : 1623391590151,
+        "duration" : 4681
+      }
+    }, {
       "uid" : "3795cb906a859779",
       "status" : "broken",
       "statusDetails" : "unknown error: Element <a id=\"favourite\" class=\"no_click add_to_account_list favourite\" href=\"#\">...</a> is not clickable at point (545, 23). Other element would receive the click: <span class=\"glyphicons_v2 plus white\"></span>\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'travis-job-42947101-d04d-4910-ac36-6aa6babdfe8d', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 82995dd3d3165426433d011be41ca724",
@@ -248,15 +256,6 @@
         "stop" : 1623332335199,
         "duration" : 4137
       }
-    }, {
-      "uid" : "bb037d9fd8b444d6",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-bd657186-a92b-408a-a47e-f2aba195e882', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 740e8ebcc2a538234ded10ac76d119fe\n*** Element info: {Using=css selector, value=p>a.accept}",
-      "time" : {
-        "start" : 1623252856090,
-        "stop" : 1623252860477,
-        "duration" : 4387
-      }
     } ]
   },
   "5d2509791714d071d5317c50776db6b0" : {
@@ -264,11 +263,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "522e6d52621c987e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391652167,
+        "stop" : 1623391652540,
+        "duration" : 373
+      }
+    }, {
       "uid" : "bb39db868f37607",
       "status" : "passed",
       "time" : {
@@ -300,14 +307,6 @@
         "stop" : 1623332424396,
         "duration" : 483
       }
-    }, {
-      "uid" : "8a5b78edf98bc2d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252939140,
-        "stop" : 1623252939632,
-        "duration" : 492
-      }
     } ]
   },
   "71403585ec7d27ea0b60342ac1efe564" : {
@@ -315,11 +314,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "77d51176f27103c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391646238,
+        "stop" : 1623391652015,
+        "duration" : 5777
+      }
+    }, {
       "uid" : "51b552ceffc1d427",
       "status" : "passed",
       "time" : {
@@ -351,15 +358,6 @@
         "stop" : 1623332423707,
         "duration" : 6218
       }
-    }, {
-      "uid" : "6433f5c38891de6f",
-      "status" : "broken",
-      "statusDetails" : "Failed -> addRandomMediaToPlayList()",
-      "time" : {
-        "start" : 1623252933203,
-        "stop" : 1623252938930,
-        "duration" : 5727
-      }
     } ]
   },
   "ce18466f21d88e5a5951835378c06a8c" : {
@@ -367,11 +365,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "33f2a72bfe7b2a73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391643293,
+        "stop" : 1623391646232,
+        "duration" : 2939
+      }
+    }, {
       "uid" : "b0acec2e4e1ff4f4",
       "status" : "passed",
       "time" : {
@@ -403,14 +409,6 @@
         "stop" : 1623332417466,
         "duration" : 3118
       }
-    }, {
-      "uid" : "e75101a56d5d0b79",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252930105,
-        "stop" : 1623252933195,
-        "duration" : 3090
-      }
     } ]
   },
   "80c046c60bb4a952af27d9e72e4abd2b" : {
@@ -418,11 +416,19 @@
       "failed" : 0,
       "broken" : 7,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "88fab3f493663516",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391542389,
+        "stop" : 1623391547637,
+        "duration" : 5248
+      }
+    }, {
       "uid" : "e8f44cb946ece038",
       "status" : "passed",
       "time" : {
@@ -457,15 +463,6 @@
         "stop" : 1623332355552,
         "duration" : 3978
       }
-    }, {
-      "uid" : "267e06b0987766a3",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-bd657186-a92b-408a-a47e-f2aba195e882', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: b99fd98986fc6abb21e3eac389753fef\n*** Element info: {Using=css selector, value=p>a.accept}",
-      "time" : {
-        "start" : 1623252871528,
-        "stop" : 1623252875932,
-        "duration" : 4404
-      }
     } ]
   },
   "4e97582778e26349499f27f55d56d57f" : {
@@ -473,11 +470,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "a3ba132bb725b5c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391653246,
+        "stop" : 1623391656267,
+        "duration" : 3021
+      }
+    }, {
       "uid" : "dd30bd7da5c636f9",
       "status" : "passed",
       "time" : {
@@ -509,14 +514,6 @@
         "stop" : 1623332428707,
         "duration" : 3385
       }
-    }, {
-      "uid" : "3ec439a9d84a0078",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252940627,
-        "stop" : 1623252943938,
-        "duration" : 3311
-      }
     } ]
   },
   "91fa27349dcdbe93d624f2194c247218" : {
@@ -524,11 +521,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "94766e8317ad4bea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391560342,
+        "stop" : 1623391564849,
+        "duration" : 4507
+      }
+    }, {
       "uid" : "196c70f52dcd5d67",
       "status" : "passed",
       "time" : {
@@ -560,14 +565,6 @@
         "stop" : 1623332367021,
         "duration" : 4011
       }
-    }, {
-      "uid" : "470d87dc6754cbff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252886035,
-        "stop" : 1623252887893,
-        "duration" : 1858
-      }
     } ]
   },
   "83242ca776c2d57237e40e0965ee0470" : {
@@ -575,11 +572,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "968c63ff371f1bc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391652545,
+        "stop" : 1623391653219,
+        "duration" : 674
+      }
+    }, {
       "uid" : "5348ed5ba2f22174",
       "status" : "passed",
       "time" : {
@@ -611,14 +616,6 @@
         "stop" : 1623332425315,
         "duration" : 915
       }
-    }, {
-      "uid" : "aa5a538a88c69775",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252939661,
-        "stop" : 1623252940622,
-        "duration" : 961
-      }
     } ]
   },
   "9bb04b468d81b8d9d670628d0681ec6a" : {
@@ -626,11 +623,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "43757b4e3b29575e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391570659,
+        "stop" : 1623391575248,
+        "duration" : 4589
+      }
+    }, {
       "uid" : "2eb1c2efe0eeb7d7",
       "status" : "passed",
       "time" : {
@@ -662,14 +667,6 @@
         "stop" : 1623332376591,
         "duration" : 4421
       }
-    }, {
-      "uid" : "1e83eb77cf9a779",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252890195,
-        "stop" : 1623252892124,
-        "duration" : 1929
-      }
     } ]
   },
   "a035823a998aebd3af1ae660a129d12a" : {
@@ -677,11 +674,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "bbb39278d026cdf6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391640326,
+        "stop" : 1623391643285,
+        "duration" : 2959
+      }
+    }, {
       "uid" : "3445e7b89cb1117e",
       "status" : "passed",
       "time" : {
@@ -713,14 +718,6 @@
         "stop" : 1623332414337,
         "duration" : 3081
       }
-    }, {
-      "uid" : "8194c23cdb64155c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252926966,
-        "stop" : 1623252930092,
-        "duration" : 3126
-      }
     } ]
   },
   "d735328590de45707a15b420f4a4442" : {
@@ -728,11 +725,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "7b92e4026ddccfa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391565402,
+        "stop" : 1623391570102,
+        "duration" : 4700
+      }
+    }, {
       "uid" : "1e75913bf99e2872",
       "status" : "passed",
       "time" : {
@@ -764,14 +769,6 @@
         "stop" : 1623332371748,
         "duration" : 4343
       }
-    }, {
-      "uid" : "7c2dd4c586a19db1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252887898,
-        "stop" : 1623252890188,
-        "duration" : 2290
-      }
     } ]
   },
   "6b23a20cc238e1cbab4f2089ff607e49" : {
@@ -779,11 +776,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "43acd955cc19761a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391660622,
+        "stop" : 1623391660712,
+        "duration" : 90
+      }
+    }, {
       "uid" : "4353769c18187424",
       "status" : "passed",
       "time" : {
@@ -815,14 +820,6 @@
         "stop" : 1623332436991,
         "duration" : 122
       }
-    }, {
-      "uid" : "3c52f630c6d17461",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252948899,
-        "stop" : 1623252949036,
-        "duration" : 137
-      }
     } ]
   },
   "be4cab48f945ec3067e34f531dca6c4e" : {
@@ -830,11 +827,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "f1b8d174cc63c66e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391660519,
+        "stop" : 1623391660616,
+        "duration" : 97
+      }
+    }, {
       "uid" : "59a4cc110ec5134a",
       "status" : "passed",
       "time" : {
@@ -866,14 +871,6 @@
         "stop" : 1623332436859,
         "duration" : 130
       }
-    }, {
-      "uid" : "d89b0c50b2682507",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252948757,
-        "stop" : 1623252948889,
-        "duration" : 132
-      }
     } ]
   },
   "a1f84c60105e69910ee89f841222aedd" : {
@@ -881,11 +878,19 @@
       "failed" : 0,
       "broken" : 8,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "65c43d57a2bb447d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391576816,
+        "stop" : 1623391581482,
+        "duration" : 4666
+      }
+    }, {
       "uid" : "3305b838c4b9cff",
       "status" : "broken",
       "statusDetails" : "unknown error: Element <a id=\"favourite\" class=\"no_click add_to_account_list favourite\" href=\"#\">...</a> is not clickable at point (545, 23). Other element would receive the click: <span class=\"glyphicons_v2 plus white\"></span>\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'travis-job-42947101-d04d-4910-ac36-6aa6babdfe8d', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 32d5845b1f7257abbcdf147c535d6400",
@@ -921,15 +926,6 @@
         "stop" : 1623332313065,
         "duration" : 5562
       }
-    }, {
-      "uid" : "2c111743e8bc7925",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-bd657186-a92b-408a-a47e-f2aba195e882', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 61cff7b22807695321c6b2b4be99985c\n*** Element info: {Using=css selector, value=p>a.accept}",
-      "time" : {
-        "start" : 1623252846165,
-        "stop" : 1623252851084,
-        "duration" : 4919
-      }
     } ]
   },
   "151e66a31c84afc146cf237a9033c09f" : {
@@ -937,11 +933,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "1d555ff9db1e9b19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391597619,
+        "stop" : 1623391601786,
+        "duration" : 4167
+      }
+    }, {
       "uid" : "bd248d22faa854dc",
       "status" : "passed",
       "time" : {
@@ -973,14 +977,6 @@
         "stop" : 1623332346103,
         "duration" : 4455
       }
-    }, {
-      "uid" : "d3de6b833c042b19",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252866571,
-        "stop" : 1623252868543,
-        "duration" : 1972
-      }
     } ]
   },
   "f1e77e52e0263993e00933e472e21bcc" : {
@@ -988,11 +984,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "d3fd861f4af00352",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391622592,
+        "stop" : 1623391626165,
+        "duration" : 3573
+      }
+    }, {
       "uid" : "77dfbaa32092b615",
       "status" : "passed",
       "time" : {
@@ -1024,14 +1028,6 @@
         "stop" : 1623332396817,
         "duration" : 3608
       }
-    }, {
-      "uid" : "f01ed14c097003a7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252908851,
-        "stop" : 1623252912490,
-        "duration" : 3639
-      }
     } ]
   },
   "6e484c32df054cc960536aa1488a1f7" : {
@@ -1039,11 +1035,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "3471786e97ba7fb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391634338,
+        "stop" : 1623391637714,
+        "duration" : 3376
+      }
+    }, {
       "uid" : "7fc1cb7a1f770515",
       "status" : "passed",
       "time" : {
@@ -1075,14 +1079,6 @@
         "stop" : 1623332408659,
         "duration" : 3427
       }
-    }, {
-      "uid" : "f51841bccbd16cc8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252920842,
-        "stop" : 1623252924239,
-        "duration" : 3397
-      }
     } ]
   },
   "e4f8e544814a2e638496ad4275ba19c8" : {
@@ -1090,11 +1086,19 @@
       "failed" : 0,
       "broken" : 7,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "b0e85a8c863bc282",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391551848,
+        "stop" : 1623391557302,
+        "duration" : 5454
+      }
+    }, {
       "uid" : "e4582000ab7c8a49",
       "status" : "passed",
       "time" : {
@@ -1129,15 +1133,6 @@
         "stop" : 1623332361395,
         "duration" : 4142
       }
-    }, {
-      "uid" : "a372364575265234",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"p>a.accept\"}\n  (Session info: headless chrome=62.0.3202.94)\n  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-101-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'\nSystem info: host: 'travis-job-bd657186-a92b-408a-a47e-f2aba195e882', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-101-generic', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 62.0.3202.94, webStorageEnabled: true}\nSession ID: 7392a3a06fed0ed786328c54c0f4a3c5\n*** Element info: {Using=css selector, value=p>a.accept}",
-      "time" : {
-        "start" : 1623252877597,
-        "stop" : 1623252881764,
-        "duration" : 4167
-      }
     } ]
   },
   "aec833bb6976b0367b2dad87ca3d0877" : {
@@ -1145,11 +1140,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "3c3645060e7f833b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391593261,
+        "stop" : 1623391597216,
+        "duration" : 3955
+      }
+    }, {
       "uid" : "390db6bb3599dc15",
       "status" : "passed",
       "time" : {
@@ -1181,14 +1184,6 @@
         "stop" : 1623332341245,
         "duration" : 4325
       }
-    }, {
-      "uid" : "26bd7e8310252a33",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252864526,
-        "stop" : 1623252866554,
-        "duration" : 2028
-      }
     } ]
   },
   "a3ea78d382f83a49667b6efdff0d8fdb" : {
@@ -1196,11 +1191,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "8ca162083718d377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391630968,
+        "stop" : 1623391634319,
+        "duration" : 3351
+      }
+    }, {
       "uid" : "971e35fa6ea6c44d",
       "status" : "passed",
       "time" : {
@@ -1232,14 +1235,6 @@
         "stop" : 1623332405224,
         "duration" : 3443
       }
-    }, {
-      "uid" : "de01d29e4a225cf3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252917413,
-        "stop" : 1623252920831,
-        "duration" : 3418
-      }
     } ]
   },
   "5be4fcb03cc601b741786815d21a682b" : {
@@ -1247,11 +1242,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "91a45d8ebcbf25b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391652019,
+        "stop" : 1623391652151,
+        "duration" : 132
+      }
+    }, {
       "uid" : "a302bc34bc46356",
       "status" : "passed",
       "time" : {
@@ -1283,14 +1286,6 @@
         "stop" : 1623332423908,
         "duration" : 187
       }
-    }, {
-      "uid" : "84cd364455f9bbf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252938936,
-        "stop" : 1623252939135,
-        "duration" : 199
-      }
     } ]
   },
   "1871795b7ae655e2a389bd57dd3cdca9" : {
@@ -1298,11 +1293,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "fda0b84f833af1d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391619059,
+        "stop" : 1623391622575,
+        "duration" : 3516
+      }
+    }, {
       "uid" : "81a3105336d02767",
       "status" : "passed",
       "time" : {
@@ -1334,14 +1337,6 @@
         "stop" : 1623332393205,
         "duration" : 3562
       }
-    }, {
-      "uid" : "19faa1b480672840",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252905212,
-        "stop" : 1623252908846,
-        "duration" : 3634
-      }
     } ]
   },
   "349b95ce6c35ea66ce8dc9c455d7dff" : {
@@ -1349,11 +1344,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "aa94f2148220e088",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623391656277,
+        "stop" : 1623391659299,
+        "duration" : 3022
+      }
+    }, {
       "uid" : "6dc1194456968586",
       "status" : "passed",
       "time" : {
@@ -1384,14 +1387,6 @@
         "start" : 1623332431639,
         "stop" : 1623332434833,
         "duration" : 3194
-      }
-    }, {
-      "uid" : "b67b0645a22c40a1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623252943942,
-        "stop" : 1623252947177,
-        "duration" : 3235
       }
     } ]
   }
