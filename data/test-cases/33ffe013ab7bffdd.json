@@ -1,0 +1,179 @@
+{
+  "uid" : "33ffe013ab7bffdd",
+  "name" : "webSearchTvShowTest",
+  "fullName" : "web.searchMediaTests.webSearchTvShowTest",
+  "historyId" : "9bb04b468d81b8d9d670628d0681ec6a",
+  "time" : {
+    "start" : 1623409473850,
+    "stop" : 1623409478330,
+    "duration" : 4480
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1623409473437,
+      "stop" : 1623409473848,
+      "duration" : 411
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623409473435,
+      "stop" : 1623409473435,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1623409478331,
+      "stop" : 1623409478397,
+      "duration" : 66
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623409478398,
+      "stop" : 1623409478399,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "web.searchMediaTests"
+  }, {
+    "name" : "testClass",
+    "value" : "web.searchMediaTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "webSearchTvShowTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Mobile UI Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SearchTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "web.searchMediaTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-d4da7a3f-d2ad-429c-8923-f328c1795661"
+  }, {
+    "name" : "thread",
+    "value" : "4294@travis-job-d4da7a3f-d2ad-429c-8923-f328c1795661.TestNG-tests-1(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "platform",
+    "value" : "mobile"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "104ea9778ed4925c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623409146637,
+          "stop" : 1623409151542,
+          "duration" : 4905
+        }
+      }, {
+        "uid" : "28df0e5711680d7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623408502458,
+          "stop" : 1623408506808,
+          "duration" : 4350
+        }
+      }, {
+        "uid" : "4c76bb3538118aab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623394410110,
+          "stop" : 1623394414595,
+          "duration" : 4485
+        }
+      }, {
+        "uid" : "8c0662861686d52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623392532639,
+          "stop" : 1623392536839,
+          "duration" : 4200
+        }
+      }, {
+        "uid" : "ef2a49e779243368",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623392061829,
+          "stop" : 1623392066430,
+          "duration" : 4601
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "33ffe013ab7bffdd.json",
+  "parameterValues" : [ "mobile" ]
+}

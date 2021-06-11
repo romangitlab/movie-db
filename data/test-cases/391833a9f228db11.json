@@ -1,0 +1,109 @@
+{
+  "uid" : "391833a9f228db11",
+  "name" : "apiAddTvShowToFavoriteTest",
+  "fullName" : "api.AddMediaToWatchlistTests.apiAddTvShowToFavoriteTest",
+  "historyId" : "f1e77e52e0263993e00933e472e21bcc",
+  "time" : {
+    "start" : 1623409524492,
+    "stop" : 1623409527988,
+    "duration" : 3496
+  },
+  "status" : "skipped",
+  "statusMessage" : "\nExpected: <[MediaData(id=61663, title=null, name=Your Lie in April, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/IGbeFv5Ji4W0x530JcSHiQpamY.jpg, created_by=null, items=null, popularity=31.05, vote_count=488, video=null, media_type=null, adult=null, backdrop_path=/x6jWDL4H9TaBLGEvyej0qKiirBU.jpg, original_language=ja, original_title=null, vote_average=9, overview=Kousei Arima was a genius pianist until his mother's sudden death took away his ability to play. Each day was dull for Kousei. But, then he meets a violinist named Kaori Miyazono who has an eccentric playing style. Can the heartfelt sounds of the girl's violin lead the boy to play the piano again?, genre_ids=[16, 35, 18], release_date=null, response=null)]>\n     but: was <[MediaData(id=61663, title=null, name=Your Lie in April, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/IGbeFv5Ji4W0x530JcSHiQpamY.jpg, created_by=null, items=null, popularity=31.05, vote_count=488, video=null, media_type=null, adult=null, backdrop_path=/x6jWDL4H9TaBLGEvyej0qKiirBU.jpg, original_language=ja, original_title=null, vote_average=9.0, overview=Kousei Arima was a genius pianist until his mother's sudden death took away his ability to play. Each day was dull for Kousei. But, then he meets a violinist named Kaori Miyazono who has an eccentric playing style. Can the heartfelt sounds of the girl's violin lead the boy to play the piano again?, genre_ids=[16, 35, 18], release_date=null, response=null)]>",
+  "statusTrace" : "java.lang.AssertionError: \nExpected: <[MediaData(id=61663, title=null, name=Your Lie in April, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/IGbeFv5Ji4W0x530JcSHiQpamY.jpg, created_by=null, items=null, popularity=31.05, vote_count=488, video=null, media_type=null, adult=null, backdrop_path=/x6jWDL4H9TaBLGEvyej0qKiirBU.jpg, original_language=ja, original_title=null, vote_average=9, overview=Kousei Arima was a genius pianist until his mother's sudden death took away his ability to play. Each day was dull for Kousei. But, then he meets a violinist named Kaori Miyazono who has an eccentric playing style. Can the heartfelt sounds of the girl's violin lead the boy to play the piano again?, genre_ids=[16, 35, 18], release_date=null, response=null)]>\n     but: was <[MediaData(id=61663, title=null, name=Your Lie in April, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/IGbeFv5Ji4W0x530JcSHiQpamY.jpg, created_by=null, items=null, popularity=31.05, vote_count=488, video=null, media_type=null, adult=null, backdrop_path=/x6jWDL4H9TaBLGEvyej0qKiirBU.jpg, original_language=ja, original_title=null, vote_average=9.0, overview=Kousei Arima was a genius pianist until his mother's sudden death took away his ability to play. Each day was dull for Kousei. But, then he meets a violinist named Kaori Miyazono who has an eccentric playing style. Can the heartfelt sounds of the girl's violin lead the boy to play the piano again?, genre_ids=[16, 35, 18], release_date=null, response=null)]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat api.AddMediaToWatchlistTests.apiAddTvShowToFavoriteTest(AddMediaToWatchlistTests.java:42)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:40)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)\n\tat org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:834)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623409524488,
+      "stop" : 1623409524489,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623409534928,
+      "stop" : 1623409539853,
+      "duration" : 4925
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623409527989,
+      "stop" : 1623409527996,
+      "duration" : 7
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.AddMediaToWatchlistTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.AddMediaToWatchlistTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiAddTvShowToFavoriteTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Add Media To Watchlist Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.AddMediaToWatchlistTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-d4da7a3f-d2ad-429c-8923-f328c1795661"
+  }, {
+    "name" : "thread",
+    "value" : "4294@travis-job-d4da7a3f-d2ad-429c-8923-f328c1795661.TestNG-tests-1(59)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "391833a9f228db11.json",
+  "parameterValues" : [ ]
+}

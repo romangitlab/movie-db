@@ -1,0 +1,211 @@
+{
+  "uid" : "72ce0748344abc1d",
+  "name" : "webAddingMovieToFavoriteTest",
+  "fullName" : "web.addMovieToFavoriteTests.webAddingMovieToFavoriteTest",
+  "historyId" : "a1f84c60105e69910ee89f841222aedd",
+  "time" : {
+    "start" : 1623409479910,
+    "stop" : 1623409484635,
+    "duration" : 4725
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1623409479593,
+      "stop" : 1623409479903,
+      "duration" : 310
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1623409478425,
+      "stop" : 1623409479590,
+      "duration" : 1165
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623409479591,
+      "stop" : 1623409479592,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623409484705,
+      "stop" : 1623409487068,
+      "duration" : 2363
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1623409484636,
+      "stop" : 1623409484702,
+      "duration" : 66
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623409484703,
+      "stop" : 1623409484704,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "web.addMovieToFavoriteTests"
+  }, {
+    "name" : "testClass",
+    "value" : "web.addMovieToFavoriteTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "webAddingMovieToFavoriteTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Desktop UI Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MoviesTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "web.addMovieToFavoriteTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-d4da7a3f-d2ad-429c-8923-f328c1795661"
+  }, {
+    "name" : "thread",
+    "value" : "4294@travis-job-d4da7a3f-d2ad-429c-8923-f328c1795661.TestNG-tests-1(39)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "platform",
+    "value" : "desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 8,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "e3d5f788ec4ef594",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623409153143,
+          "stop" : 1623409158136,
+          "duration" : 4993
+        }
+      }, {
+        "uid" : "48299ab15522a21b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623408508360,
+          "stop" : 1623408512957,
+          "duration" : 4597
+        }
+      }, {
+        "uid" : "70220864aafca244",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623394416174,
+          "stop" : 1623394420768,
+          "duration" : 4594
+        }
+      }, {
+        "uid" : "5268c1e9b86e8f1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623392538388,
+          "stop" : 1623392543317,
+          "duration" : 4929
+        }
+      }, {
+        "uid" : "ad0f0923db188109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623392067980,
+          "stop" : 1623392072597,
+          "duration" : 4617
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "72ce0748344abc1d.json",
+  "parameterValues" : [ "desktop" ]
+}

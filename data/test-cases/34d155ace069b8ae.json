@@ -1,0 +1,109 @@
+{
+  "uid" : "34d155ace069b8ae",
+  "name" : "apiAddTvShowToFavoriteTest",
+  "fullName" : "api.AddMediaToWatchlistTests.apiAddTvShowToFavoriteTest",
+  "historyId" : "f1e77e52e0263993e00933e472e21bcc",
+  "time" : {
+    "start" : 1623409528000,
+    "stop" : 1623409531441,
+    "duration" : 3441
+  },
+  "status" : "skipped",
+  "statusMessage" : "\nExpected: <[MediaData(id=108261, title=null, name=Mr. Queen, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/ozuyMnOO5pekDklyPpUL1Htkuzy.jpg, created_by=null, items=null, popularity=51.346, vote_count=146, video=null, media_type=null, adult=null, backdrop_path=/vP6jiaPmzgHF5YyvrkK44PJGmyR.jpg, original_language=ko, original_title=null, vote_average=9, overview=In the present day, Jang Bong Hwan works as a chef at the President's Blue House. She has a free spirit, but her spirit somehow finds its way into the body of Queen Kim So Yong in the Joseon period.\n\nKing Cheol Jong has secrets. He seems like a figurehead, who is gentle and easygoing. In fact, he hides his strong aspects. Queen Sunwon is the late King Sunjo’s wife. She wields the true power in the country and, thus, relegates King Cheol Jong as just a figurehead. Kim Jwa Geun is Queen Sunwon’s younger brother. He is extremely ambitious., genre_ids=[18, 35, 10765], release_date=null, response=null), MediaData(id=61663, title=null, name=Your Lie in April, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/IGbeFv5Ji4W0x530JcSHiQpamY.jpg, created_by=null, items=null, popularity=31.05, vote_count=488, video=null, media_type=null, adult=null, backdrop_path=/x6jWDL4H9TaBLGEvyej0qKiirBU.jpg, original_language=ja, original_title=null, vote_average=9.0, overview=Kousei Arima was a genius pianist until his mother's sudden death took away his ability to play. Each day was dull for Kousei. But, then he meets a violinist named Kaori Miyazono who has an eccentric playing style. Can the heartfelt sounds of the girl's violin lead the boy to play the piano again?, genre_ids=[16, 35, 18], release_date=null, response=null)]>\n     but: was <[MediaData(id=61663, title=null, name=Your Lie in April, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/IGbeFv5Ji4W0x530JcSHiQpamY.jpg, created_by=null, items=null, popularity=31.05, vote_count=488, video=null, media_type=null, adult=null, backdrop_path=/x6jWDL4H9TaBLGEvyej0qKiirBU.jpg, original_language=ja, original_title=null, vote_average=9.0, overview=Kousei Arima was a genius pianist until his mother's sudden death took away his ability to play. Each day was dull for Kousei. But, then he meets a violinist named Kaori Miyazono who has an eccentric playing style. Can the heartfelt sounds of the girl's violin lead the boy to play the piano again?, genre_ids=[16, 35, 18], release_date=null, response=null), MediaData(id=108261, title=null, name=Mr. Queen, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/ozuyMnOO5pekDklyPpUL1Htkuzy.jpg, created_by=null, items=null, popularity=51.346, vote_count=146, video=null, media_type=null, adult=null, backdrop_path=/vP6jiaPmzgHF5YyvrkK44PJGmyR.jpg, original_language=ko, original_title=null, vote_average=9.0, overview=In the present day, Jang Bong Hwan works as a chef at the President's Blue House. She has a free spirit, but her spirit somehow finds its way into the body of Queen Kim So Yong in the Joseon period.\n\nKing Cheol Jong has secrets. He seems like a figurehead, who is gentle and easygoing. In fact, he hides his strong aspects. Queen Sunwon is the late King Sunjo’s wife. She wields the true power in the country and, thus, relegates King Cheol Jong as just a figurehead. Kim Jwa Geun is Queen Sunwon’s younger brother. He is extremely ambitious., genre_ids=[18, 35, 10765], release_date=null, response=null)]>",
+  "statusTrace" : "java.lang.AssertionError: \nExpected: <[MediaData(id=108261, title=null, name=Mr. Queen, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/ozuyMnOO5pekDklyPpUL1Htkuzy.jpg, created_by=null, items=null, popularity=51.346, vote_count=146, video=null, media_type=null, adult=null, backdrop_path=/vP6jiaPmzgHF5YyvrkK44PJGmyR.jpg, original_language=ko, original_title=null, vote_average=9, overview=In the present day, Jang Bong Hwan works as a chef at the President's Blue House. She has a free spirit, but her spirit somehow finds its way into the body of Queen Kim So Yong in the Joseon period.\n\nKing Cheol Jong has secrets. He seems like a figurehead, who is gentle and easygoing. In fact, he hides his strong aspects. Queen Sunwon is the late King Sunjo’s wife. She wields the true power in the country and, thus, relegates King Cheol Jong as just a figurehead. Kim Jwa Geun is Queen Sunwon’s younger brother. He is extremely ambitious., genre_ids=[18, 35, 10765], release_date=null, response=null), MediaData(id=61663, title=null, name=Your Lie in April, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/IGbeFv5Ji4W0x530JcSHiQpamY.jpg, created_by=null, items=null, popularity=31.05, vote_count=488, video=null, media_type=null, adult=null, backdrop_path=/x6jWDL4H9TaBLGEvyej0qKiirBU.jpg, original_language=ja, original_title=null, vote_average=9.0, overview=Kousei Arima was a genius pianist until his mother's sudden death took away his ability to play. Each day was dull for Kousei. But, then he meets a violinist named Kaori Miyazono who has an eccentric playing style. Can the heartfelt sounds of the girl's violin lead the boy to play the piano again?, genre_ids=[16, 35, 18], release_date=null, response=null)]>\n     but: was <[MediaData(id=61663, title=null, name=Your Lie in April, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/IGbeFv5Ji4W0x530JcSHiQpamY.jpg, created_by=null, items=null, popularity=31.05, vote_count=488, video=null, media_type=null, adult=null, backdrop_path=/x6jWDL4H9TaBLGEvyej0qKiirBU.jpg, original_language=ja, original_title=null, vote_average=9.0, overview=Kousei Arima was a genius pianist until his mother's sudden death took away his ability to play. Each day was dull for Kousei. But, then he meets a violinist named Kaori Miyazono who has an eccentric playing style. Can the heartfelt sounds of the girl's violin lead the boy to play the piano again?, genre_ids=[16, 35, 18], release_date=null, response=null), MediaData(id=108261, title=null, name=Mr. Queen, description=null, favorite_count=null, item_count=null, list_type=null, iso_639_1=null, poster_path=/ozuyMnOO5pekDklyPpUL1Htkuzy.jpg, created_by=null, items=null, popularity=51.346, vote_count=146, video=null, media_type=null, adult=null, backdrop_path=/vP6jiaPmzgHF5YyvrkK44PJGmyR.jpg, original_language=ko, original_title=null, vote_average=9.0, overview=In the present day, Jang Bong Hwan works as a chef at the President's Blue House. She has a free spirit, but her spirit somehow finds its way into the body of Queen Kim So Yong in the Joseon period.\n\nKing Cheol Jong has secrets. He seems like a figurehead, who is gentle and easygoing. In fact, he hides his strong aspects. Queen Sunwon is the late King Sunjo’s wife. She wields the true power in the country and, thus, relegates King Cheol Jong as just a figurehead. Kim Jwa Geun is Queen Sunwon’s younger brother. He is extremely ambitious., genre_ids=[18, 35, 10765], release_date=null, response=null)]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat api.AddMediaToWatchlistTests.apiAddTvShowToFavoriteTest(AddMediaToWatchlistTests.java:42)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.retryFailed(Invoker.java:839)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:40)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)\n\tat org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:834)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623409527997,
+      "stop" : 1623409527998,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623409534928,
+      "stop" : 1623409539853,
+      "duration" : 4925
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623409531443,
+      "stop" : 1623409531443,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.AddMediaToWatchlistTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.AddMediaToWatchlistTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiAddTvShowToFavoriteTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Add Media To Watchlist Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.AddMediaToWatchlistTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-d4da7a3f-d2ad-429c-8923-f328c1795661"
+  }, {
+    "name" : "thread",
+    "value" : "4294@travis-job-d4da7a3f-d2ad-429c-8923-f328c1795661.TestNG-tests-1(59)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34d155ace069b8ae.json",
+  "parameterValues" : [ ]
+}

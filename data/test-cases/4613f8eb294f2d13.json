@@ -1,0 +1,194 @@
+{
+  "uid" : "4613f8eb294f2d13",
+  "name" : "apiAddTvShowToPlayListTest",
+  "fullName" : "api.CheckMediaListsTests.apiAddTvShowToPlayListTest",
+  "historyId" : "ce18466f21d88e5a5951835378c06a8c",
+  "time" : {
+    "start" : 1623409560850,
+    "stop" : 1623409563746,
+    "duration" : 2896
+  },
+  "status" : "broken",
+  "statusMessage" : "Failed -> addRandomMediaToPlayList()",
+  "statusTrace" : "java.lang.IllegalArgumentException: Failed -> addRandomMediaToPlayList()\n\tat org.springframework.util.Assert.isTrue(Assert.java:118)\n\tat api.MediaApi.addRandomMediaToPlayList(MediaApi.java:226)\n\tat api.CheckMediaListsTests.apiAddTvShowToPlayListTest(CheckMediaListsTests.java:83)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.retryFailed(Invoker.java:839)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:40)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)\n\tat org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:834)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623409560842,
+      "stop" : 1623409560846,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623409577274,
+      "stop" : 1623409578878,
+      "duration" : 1604
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623409563748,
+      "stop" : 1623409563749,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiAddTvShowToPlayListTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Check Media Lists Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-d4da7a3f-d2ad-429c-8923-f328c1795661"
+  }, {
+    "name" : "thread",
+    "value" : "4294@travis-job-d4da7a3f-d2ad-429c-8923-f328c1795661.TestNG-tests-1(59)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "18535f5a17ca2fb7",
+      "status" : "skipped",
+      "statusDetails" : "Failed -> addRandomMediaToPlayList()",
+      "time" : {
+        "start" : 1623409557982,
+        "stop" : 1623409560837,
+        "duration" : 2855
+      }
+    }, {
+      "uid" : "26f77a5326461cc8",
+      "status" : "skipped",
+      "statusDetails" : "Failed -> addRandomMediaToPlayList()",
+      "time" : {
+        "start" : 1623409555113,
+        "stop" : 1623409557968,
+        "duration" : 2855
+      }
+    }, {
+      "uid" : "4e7b76f1bc21962c",
+      "status" : "skipped",
+      "statusDetails" : "Failed -> addRandomMediaToPlayList()",
+      "time" : {
+        "start" : 1623409552247,
+        "stop" : 1623409555109,
+        "duration" : 2862
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "88a3bbe844ae11e7",
+        "status" : "broken",
+        "statusDetails" : "Failed -> addRandomMediaToPlayList()",
+        "time" : {
+          "start" : 1623409226619,
+          "stop" : 1623409229419,
+          "duration" : 2800
+        }
+      }, {
+        "uid" : "b7760eb5b0699350",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623408575145,
+          "stop" : 1623408578074,
+          "duration" : 2929
+        }
+      }, {
+        "uid" : "a18c5df0bb2d9b6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623394488025,
+          "stop" : 1623394491045,
+          "duration" : 3020
+        }
+      }, {
+        "uid" : "44876f7fbdbd6ef9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623392602849,
+          "stop" : 1623392605761,
+          "duration" : 2912
+        }
+      }, {
+        "uid" : "194210456c149456",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623392142301,
+          "stop" : 1623392145248,
+          "duration" : 2947
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4613f8eb294f2d13.json",
+  "parameterValues" : [ ]
+}
