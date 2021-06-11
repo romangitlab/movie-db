@@ -1,0 +1,178 @@
+{
+  "uid" : "5ac814c87b2ee8bc",
+  "name" : "apiRemoveTvShowFromPlayListTest",
+  "fullName" : "api.CheckMediaListsTests.apiRemoveTvShowFromPlayListTest",
+  "historyId" : "349b95ce6c35ea66ce8dc9c455d7dff",
+  "time" : {
+    "start" : 1623408599026,
+    "stop" : 1623408602061,
+    "duration" : 3035
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623408599022,
+      "stop" : 1623408599023,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623408602063,
+      "stop" : 1623408603772,
+      "duration" : 1709
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623408602062,
+      "stop" : 1623408602062,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiRemoveTvShowFromPlayListTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Check Media Lists Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-60418764-85b8-4246-a21b-7035a73052b0"
+  }, {
+    "name" : "thread",
+    "value" : "4304@travis-job-60418764-85b8-4246-a21b-7035a73052b0.TestNG-tests-1(59)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "69e28338c3196d5d",
+      "status" : "skipped",
+      "statusDetails" : "Failed -> addRandomMediaToPlayList()",
+      "time" : {
+        "start" : 1623408596217,
+        "stop" : 1623408599018,
+        "duration" : 2801
+      }
+    }, {
+      "uid" : "2d744855f74cdd66",
+      "status" : "skipped",
+      "statusDetails" : "Failed -> addRandomMediaToPlayList()",
+      "time" : {
+        "start" : 1623408593447,
+        "stop" : 1623408596209,
+        "duration" : 2762
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "17724cc19f7a6b7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623394512414,
+          "stop" : 1623394515426,
+          "duration" : 3012
+        }
+      }, {
+        "uid" : "b64ba6ddf791246b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623392615876,
+          "stop" : 1623392618887,
+          "duration" : 3011
+        }
+      }, {
+        "uid" : "6893e40773785fa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623392160807,
+          "stop" : 1623392163865,
+          "duration" : 3058
+        }
+      }, {
+        "uid" : "aa94f2148220e088",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623391656277,
+          "stop" : 1623391659299,
+          "duration" : 3022
+        }
+      }, {
+        "uid" : "6dc1194456968586",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623390310413,
+          "stop" : 1623390313472,
+          "duration" : 3059
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5ac814c87b2ee8bc.json",
+  "parameterValues" : [ ]
+}

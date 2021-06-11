@@ -1,0 +1,169 @@
+{
+  "uid" : "773a34ef97a1a755",
+  "name" : "apiClearAllMediaFromListsTest",
+  "fullName" : "api.CheckMediaListsTests.apiClearAllMediaFromListsTest",
+  "historyId" : "71403585ec7d27ea0b60342ac1efe564",
+  "time" : {
+    "start" : 1623408583568,
+    "stop" : 1623408589288,
+    "duration" : 5720
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStat",
+    "time" : {
+      "start" : 1623408583565,
+      "stop" : 1623408583566,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1623408602063,
+      "stop" : 1623408603772,
+      "duration" : 1709
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1623408589288,
+      "stop" : 1623408589291,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "apiClearAllMediaFromListsTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Check Media Lists Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.CheckMediaListsTests"
+  }, {
+    "name" : "host",
+    "value" : "travis-job-60418764-85b8-4246-a21b-7035a73052b0"
+  }, {
+    "name" : "thread",
+    "value" : "4304@travis-job-60418764-85b8-4246-a21b-7035a73052b0.TestNG-tests-1(59)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2c05957f3e5277e5",
+      "status" : "skipped",
+      "statusDetails" : "Failed -> addRandomMediaToPlayList()",
+      "time" : {
+        "start" : 1623408578107,
+        "stop" : 1623408583562,
+        "duration" : 5455
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "9b07fa74ffb9f61c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623394502224,
+          "stop" : 1623394508170,
+          "duration" : 5946
+        }
+      }, {
+        "uid" : "62dd9234dcb3ee6d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623392605770,
+          "stop" : 1623392611594,
+          "duration" : 5824
+        }
+      }, {
+        "uid" : "d3262eebb163e148",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623392150738,
+          "stop" : 1623392156485,
+          "duration" : 5747
+        }
+      }, {
+        "uid" : "77d51176f27103c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623391646238,
+          "stop" : 1623391652015,
+          "duration" : 5777
+        }
+      }, {
+        "uid" : "51b552ceffc1d427",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623390300486,
+          "stop" : 1623390306264,
+          "duration" : 5778
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "773a34ef97a1a755.json",
+  "parameterValues" : [ ]
+}
